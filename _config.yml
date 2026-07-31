@@ -1,13 +1,24 @@
 title: NBA 实时速览精读
 description: 美媒 NBA 动态全自动追更，精简编译与核心要点拆解。
-future: true
+
+url: "https://cibstan1999.github.io"
+baseurl: "/NBA-Quick-News-2.0"
+
 timezone: Asia/Shanghai
+future: true
+
 theme: minima
 
-# 必须设置 baseurl 指向你的项目仓库名（注意前面有斜杠）
-# baseurl: "/NBA-Quick-News-2.0"
-# url: "https://cibstan1999.github.io"
+lang: zh-CN
+show_excerpts: true
 
-# 排除 README，不让它变成网页
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
 exclude:
   - README.md
+  - LICENSE
