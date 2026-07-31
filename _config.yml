@@ -4,6 +4,6 @@ future: true
 timezone: Asia/Shanghai
 theme: minima
 
-# 导航栏设置：只显示必要的页面
-header_pages:
-  - about.md
+# 排除 README，不让它变成网页
+exclude:
+  - README.md
