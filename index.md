@@ -23,7 +23,8 @@ title: 首页
     font-size: 14px;
     transition: all 0.2s;
   }
-  .filter-btn.active, .filter-btn:hover {
+  .filter-btn.active,
+  .filter-btn:hover {
     background: #17408B;
     color: #fff;
     border-color: #17408B;
@@ -35,14 +36,13 @@ title: 首页
     font-size: 14px;
     outline: none;
   }
-  
   .post-card {
     border: 1px solid #e1e4e8;
     border-radius: 10px;
     padding: 18px;
     margin-bottom: 20px;
     background: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
     transition: transform 0.2s;
   }
   .post-card:hover {
@@ -53,11 +53,6 @@ title: 首页
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-  }
-  .post-tags {
-    display: flex;
-    gap: 6px;
-    align-items: center;
   }
   .badge-cat {
     padding: 3px 8px;
@@ -70,21 +65,12 @@ title: 首页
   .cat-伤病官宣 { background-color: #d62828; }
   .cat-球队动态 { background-color: #17408B; }
   .cat-场外-其他 { background-color: #6c757d; }
-  
-  .badge-team {
-    background: #e9ecef;
-    color: #495057;
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-size: 12px;
-    font-weight: 600;
-  }
   .post-date {
     font-size: 13px;
     color: #888;
   }
   .post-title {
-    margin: 8px 0 12px 0;
+    margin: 8px 0 0;
     font-size: 18px;
   }
   .post-title a {
@@ -100,51 +86,60 @@ title: 首页
 
 <div class="filter-container">
   <strong>分类筛选：</strong>
-  <button class="filter-btn active" onclick="filterPosts('all')">全部</button>
-  <button class="filter-btn" onclick="filterPosts('cat-交易/签约')">交易/签约</button>
-  <button class="filter-btn" onclick="filterPosts('cat-伤病官宣')">伤病官宣</button>
-  <button class="filter-btn" onclick="filterPosts('cat-球队动态')">球队动态</button>
-  <button class="filter-btn" onclick="filterPosts('cat-场外/其他')">场外/其他</button>
-  
-  <span style="margin: 0 10px; color:#ccc;">|</span>
-  
+  <button class="filter-btn active" onclick="filterPosts('all', event)">全部</button>
+  <button class="filter-btn" onclick="filterPosts('cat-交易/签约', event)">交易/签约</button>
+  <button class="filter-btn" onclick="filterPosts('cat-伤病官宣', event)">伤病官宣</button>
+  <button class="filter-btn" onclick="filterPosts('cat-球队动态', event)">球队动态</button>
+  <button class="filter-btn" onclick="filterPosts('cat-场外/其他', event)">场外/其他</button>
+
+  <span style="margin: 0 10px; color: #ccc;">|</span>
+
   <strong>球队筛选：</strong>
   <select class="team-select" id="teamFilter" onchange="filterByTeam(this.value)">
     <option value="all">所有球队</option>
-    <option value="LAL">LAL 湖人</option>
-    <option value="GSW">GSW 勇士</option>
-    <option value="BOS">BOS 凯尔特人</option>
-    <option value="PHX">PHX 太阳</option>
-    <option value="LAC">LAC 快船</option>
-    <option value="MIL">MIL 雄鹿</option>
-    <option value="DAL">DAL 独行侠</option>
-    <option value="DEN">DEN 掘金</option>
-    <option value="PHI">PHI 76人</option>
-    <option value="MIA">MIA 热火</option>
-    <option value="NYK">NYK 尼克斯</option>
-    <option value="OKC">OKC 雷霆</option>
-    <option value="MIN">MIN 森林狼</option>
+    <option value="老鹰">ATL 老鹰</option>
+    <option value="凯尔特人">BOS 凯尔特人</option>
+    <option value="篮网">BKN 篮网</option>
+    <option value="黄蜂">CHA 黄蜂</option>
+    <option value="公牛">CHI 公牛</option>
+    <option value="骑士">CLE 骑士</option>
+    <option value="独行侠">DAL 独行侠</option>
+    <option value="掘金">DEN 掘金</option>
+    <option value="活塞">DET 活塞</option>
+    <option value="勇士">GSW 勇士</option>
+    <option value="火箭">HOU 火箭</option>
+    <option value="步行者">IND 步行者</option>
+    <option value="快船">LAC 快船</option>
+    <option value="湖人">LAL 湖人</option>
+    <option value="灰熊">MEM 灰熊</option>
+    <option value="热火">MIA 热火</option>
+    <option value="雄鹿">MIL 雄鹿</option>
+    <option value="森林狼">MIN 森林狼</option>
+    <option value="鹈鹕">NOP 鹈鹕</option>
+    <option value="尼克斯">NYK 尼克斯</option>
+    <option value="雷霆">OKC 雷霆</option>
+    <option value="魔术">ORL 魔术</option>
+    <option value="76人">PHI 76人</option>
+    <option value="太阳">PHX 太阳</option>
+    <option value="开拓者">POR 开拓者</option>
+    <option value="国王">SAC 国王</option>
+    <option value="马刺">SAS 马刺</option>
+    <option value="猛龙">TOR 猛龙</option>
+    <option value="爵士">UTA 爵士</option>
+    <option value="奇才">WAS 奇才</option>
   </select>
 </div>
 
 <div class="posts-list">
   {% for post in site.posts %}
     {% assign cat_class = post.category | replace: '/', '-' | default: '球队动态' %}
-    <div class="post-card" 
-         data-category="cat-{{ post.category }}" 
+    <div class="post-card"
+         data-category="cat-{{ post.category }}"
          data-teams="{{ post.tags | join: ',' }}">
-      
       <div class="post-header">
-        <div class="post-tags">
-          <span class="badge-cat cat-{{ cat_class }}">
-            {{ post.category | default: "球队动态" }}
-          </span>
-          
-          {% for tag in post.tags %}
-            <span class="badge-team">{{ tag }}</span>
-          {% endfor %}
-        </div>
-        
+        <span class="badge-cat cat-{{ cat_class }}">
+          {{ post.category | default: "球队动态" }}
+        </span>
         <span class="post-date">{{ post.date | date: "%Y-%m-%d %H:%M" }}</span>
       </div>
 
@@ -156,37 +151,42 @@ title: 首页
 </div>
 
 <script>
-  function filterPosts(cat) {
-    // 切换按钮高亮样式
-    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
-    
-    // 重置球队下拉框
+  function filterPosts(cat, clickEvent) {
+    document.querySelectorAll('.filter-btn').forEach(function (btn) {
+      btn.classList.remove('active');
+    });
+
+    if (clickEvent && clickEvent.currentTarget) {
+      clickEvent.currentTarget.classList.add('active');
+    }
+
     document.getElementById('teamFilter').value = 'all';
 
-    const cards = document.querySelectorAll('.post-card');
-    cards.forEach(card => {
-      if (cat === 'all' || card.getAttribute('data-category') === cat) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
-      }
+    document.querySelectorAll('.post-card').forEach(function (card) {
+      card.style.display = (
+        cat === 'all' || card.getAttribute('data-category') === cat
+      ) ? 'block' : 'none';
     });
   }
 
   function filterByTeam(team) {
-    // 重置分类按钮
-    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-    document.querySelector('.filter-btn').classList.add('active');
+    document.querySelectorAll('.filter-btn').forEach(function (btn) {
+      btn.classList.remove('active');
+    });
 
-    const cards = document.querySelectorAll('.post-card');
-    cards.forEach(card => {
-      const teams = card.getAttribute('data-teams') || '';
-      if (team === 'all' || teams.includes(team)) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
-      }
+    const firstButton = document.querySelector('.filter-btn');
+    if (firstButton) {
+      firstButton.classList.add('active');
+    }
+
+    document.querySelectorAll('.post-card').forEach(function (card) {
+      const teams = (card.getAttribute('data-teams') || '')
+        .split(',')
+        .map(function (item) { return item.trim(); });
+
+      card.style.display = (
+        team === 'all' || teams.indexOf(team) !== -1
+      ) ? 'block' : 'none';
     });
   }
 </script>
