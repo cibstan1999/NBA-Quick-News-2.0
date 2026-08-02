@@ -7,14 +7,6 @@ assignees: ''
 
 ---
 
----
-name: "🐛 Bug 报告"
-about: "记录 NBA-Quick-News-2.0 运行中发现的问题"
-title: "[Bug] "
-labels: "bug"
-assignees: ""
----
-
 ## 问题描述
 
 请简单描述发生了什么。
