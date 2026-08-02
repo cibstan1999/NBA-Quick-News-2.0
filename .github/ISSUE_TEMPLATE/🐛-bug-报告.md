@@ -1,10 +1,9 @@
 ---
-name: "\U0001F41B Bug 报告"
-about: 记录 NBA-Quick-News-2.0 运行中发现的问题
-title: ''
-labels: ''
-assignees: ''
-
+name: "🐛 Bug 报告"
+about: "记录 NBA-Quick-News-2.0 运行中发现的问题"
+title: "[Bug] "
+labels: "bug"
+assignees: ""
 ---
 
 ## 问题描述
