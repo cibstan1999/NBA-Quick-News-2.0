@@ -22,3 +22,4 @@ defaults:
 exclude:
   - README.md
   - LICENSE
+  - logs/rejections
