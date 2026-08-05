@@ -132,13 +132,23 @@ title: 首页
 
 <div class="posts-list">
   {% for post in site.posts %}
-    {% assign cat_class = post.category | replace: '/', '-' | default: '球队动态' %}
+    {% assign filter_category = '球队动态' %}
+
+    {% if post.tags contains '交易' or post.tags contains '交易流言' or post.tags contains '签约' or post.tags contains '续约' or post.tags contains '合同' or post.tags contains '裁员' or post.tags contains '自由市场' %}
+      {% assign filter_category = '交易/签约' %}
+    {% elsif post.tags contains '伤病' or post.tags contains '复出' or post.tags contains '停赛' or post.tags contains '官宣' %}
+      {% assign filter_category = '伤病官宣' %}
+    {% elsif post.tags contains '法律事务' or post.tags contains '球队经营' or post.tags contains '球馆' or post.tags contains '搬迁' or post.tags contains '联盟政策' or post.tags contains '劳资协议' or post.tags contains '工资帽' or post.tags contains '调查' or post.tags contains '处罚' or post.tags contains '趋势分析' %}
+      {% assign filter_category = '场外/其他' %}
+    {% endif %}
+
+    {% assign cat_class = filter_category | replace: '/', '-' %}
     <div class="post-card"
-         data-category="cat-{{ post.category }}"
+         data-category="cat-{{ filter_category }}"
          data-teams="{{ post.tags | join: ',' }}">
       <div class="post-header">
         <span class="badge-cat cat-{{ cat_class }}">
-          {{ post.category | default: "球队动态" }}
+          {{ filter_category }}
         </span>
         <span class="post-date">{{ post.date | date: "%Y-%m-%d %H:%M" }}</span>
       </div>
