@@ -9,6 +9,7 @@
   "needs_review_label": "[NBA-Needs-Review]",
   "max_emails_per_run": 10,
   "max_articles_per_run": 4,
+  "max_source_age_hours": 72,
   "event_dedupe_window_hours": 168,
   "target_branch": "main",
   "posts_directory": "_posts",
