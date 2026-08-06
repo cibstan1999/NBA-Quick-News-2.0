@@ -65,18 +65,27 @@ jobs:
               return;
             }
 
-            for (const pr of candidates) {
-              const runs = await github.rest.actions.listWorkflowRuns({
-                owner,
-                repo,
-                workflow_id: 'editorial-pr-validation.yml',
-                branch: pr.head.ref,
-                per_page: 20
-              });
+            const allRuns = await github.rest.actions.listWorkflowRuns({
+              owner,
+              repo,
+              workflow_id: 'editorial-pr-validation.yml',
+              per_page: 100
+            });
 
-              const current = runs.data.workflow_runs.find(
-                (run) => run.head_sha === pr.head.sha
-              );
+            for (const pr of candidates) {
+              const recoveryMarker = `PR #${pr.number} @ ${pr.head.sha}`;
+              const current = allRuns.data.workflow_runs.find((run) => {
+                const normalPullRequestRun =
+                  run.event === 'pull_request' &&
+                  run.head_branch === pr.head.ref &&
+                  run.head_sha === pr.head.sha;
+
+                const recoveryDispatchRun =
+                  run.event === 'workflow_dispatch' &&
+                  String(run.display_title || '').includes(recoveryMarker);
+
+                return normalPullRequestRun || recoveryDispatchRun;
+              });
 
               if (current && activeStatuses.has(current.status)) {
                 core.info(`PR #${pr.number} 的校验仍在运行，跳过。`);
@@ -124,9 +133,10 @@ jobs:
                   owner,
                   repo,
                   workflow_id: 'editorial-pr-validation.yml',
-                  ref: pr.head.ref,
+                  ref: 'main',
                   inputs: {
-                    pr_number: String(pr.number)
+                    pr_number: String(pr.number),
+                    head_sha: pr.head.sha
                   }
                 });
                 core.notice(`已恢复 PR #${pr.number}：${reason}`);
