@@ -23,10 +23,18 @@ defaults:
     values:
       layout: post
 
+# 这些目录只服务于采集、编辑、审计和自动化，不进入公开网站。
 exclude:
   - README.md
   - LICENSE
-  - logs/rejections
-  - editorial/templates
+  - AGENTS.md
+  - .github
+  - GAS
   - configs
+  - docs
+  - editorial
+  - scripts
+  - sources/inbox
+  - sources/needs-review
+  - logs/rejections
   - logs/codex-runs
