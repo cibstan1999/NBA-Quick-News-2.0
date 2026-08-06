@@ -62,7 +62,7 @@ title: 首页
     color: #fff;
   }
   .cat-交易-签约 { background-color: #e63946; }
-  .cat-伤病官宣 { background-color: #d62828; }
+  .cat-伤病-复出 { background-color: #d62828; }
   .cat-球队动态 { background-color: #17408B; }
   .cat-场外-其他 { background-color: #6c757d; }
   .post-date {
@@ -88,7 +88,7 @@ title: 首页
   <strong>分类筛选：</strong>
   <button class="filter-btn active" onclick="filterPosts('all', event)">全部</button>
   <button class="filter-btn" onclick="filterPosts('cat-交易/签约', event)">交易/签约</button>
-  <button class="filter-btn" onclick="filterPosts('cat-伤病官宣', event)">伤病官宣</button>
+  <button class="filter-btn" onclick="filterPosts('cat-伤病/复出', event)">伤病/复出</button>
   <button class="filter-btn" onclick="filterPosts('cat-球队动态', event)">球队动态</button>
   <button class="filter-btn" onclick="filterPosts('cat-场外/其他', event)">场外/其他</button>
 
@@ -133,12 +133,14 @@ title: 首页
 <div class="posts-list">
   {% for post in site.posts %}
     {% assign filter_category = '球队动态' %}
+    {% assign news_type_text = post.news_type | default: '' %}
+    {% assign event_type_text = post.event_type | default: '' %}
 
-    {% if post.tags contains '交易' or post.tags contains '交易流言' or post.tags contains '签约' or post.tags contains '续约' or post.tags contains '合同' or post.tags contains '裁员' or post.tags contains '自由市场' %}
+    {% if event_type_text == 'trade' or event_type_text == 'trade_rumor' or event_type_text == 'trade_discussion' or event_type_text == 'trade_request' or event_type_text == 'signing' or event_type_text == 'roster_signing' or event_type_text == 'contract_extension' or event_type_text == 'contract_signing' or event_type_text == 'sign_and_trade' or event_type_text == 'waiver' or event_type_text == 'release' or event_type_text == 'buyout' or event_type_text == 'two_way_contract' or event_type_text == 'roster_move' or event_type_text == 'coach_hiring' or event_type_text == 'staff_hiring' or news_type_text == '交易' or news_type_text == '交易传闻' or news_type_text == '交易流言' or news_type_text == '球员签约' or news_type_text == '签约' or news_type_text == '续约' or news_type_text == '合同' or news_type_text == '合同续约' or news_type_text == '裁员' or news_type_text == '阵容调整' or news_type_text == '自由市场' or news_type_text == '双向合同' or news_type_text == '买断' or news_type_text == '先签后换' or post.tags contains '交易' or post.tags contains '交易流言' or post.tags contains '交易传闻' or post.tags contains '签约' or post.tags contains '球员签约' or post.tags contains '续约' or post.tags contains '合同' or post.tags contains '合同续约' or post.tags contains '裁员' or post.tags contains '阵容调整' or post.tags contains '自由市场' or post.tags contains '双向合同' or post.tags contains '买断' or post.tags contains '先签后换' %}
       {% assign filter_category = '交易/签约' %}
-    {% elsif post.tags contains '伤病' or post.tags contains '复出' or post.tags contains '停赛' or post.tags contains '官宣' %}
-      {% assign filter_category = '伤病官宣' %}
-    {% elsif post.tags contains '法律事务' or post.tags contains '球队经营' or post.tags contains '球馆' or post.tags contains '搬迁' or post.tags contains '联盟政策' or post.tags contains '劳资协议' or post.tags contains '工资帽' or post.tags contains '调查' or post.tags contains '处罚' or post.tags contains '趋势分析' %}
+    {% elsif event_type_text == 'injury' or event_type_text == 'injury_update' or event_type_text == 'return' or event_type_text == 'suspension' or event_type_text == 'surgery' or event_type_text == 'absence' or event_type_text == 'out_for_season' or news_type_text == '伤病' or news_type_text == '伤病更新' or news_type_text == '复出' or news_type_text == '停赛' or news_type_text == '手术' or news_type_text == '缺阵' or news_type_text == '赛季报销' or post.tags contains '伤病' or post.tags contains '伤病更新' or post.tags contains '复出' or post.tags contains '停赛' or post.tags contains '手术' or post.tags contains '缺阵' or post.tags contains '赛季报销' %}
+      {% assign filter_category = '伤病/复出' %}
+    {% elsif event_type_text == 'league_policy' or event_type_text == 'league_schedule' or event_type_text == 'legal' or event_type_text == 'business' or event_type_text == 'investigation' or event_type_text == 'discipline' or event_type_text == 'relocation' or event_type_text == 'arena' or event_type_text == 'salary_cap' or event_type_text == 'collective_bargaining' or news_type_text == '联盟动态' or news_type_text == '联盟政策' or news_type_text == '法律事务' or news_type_text == '球队经营' or news_type_text == '工资帽' or news_type_text == '调查' or news_type_text == '处罚' or news_type_text == '球馆' or news_type_text == '搬迁' or post.tags contains '法律事务' or post.tags contains '球队经营' or post.tags contains '球馆' or post.tags contains '搬迁' or post.tags contains '联盟政策' or post.tags contains '劳资协议' or post.tags contains '工资帽' or post.tags contains '调查' or post.tags contains '处罚' or post.tags contains '趋势分析' %}
       {% assign filter_category = '场外/其他' %}
     {% endif %}
 
