@@ -8,7 +8,7 @@
 
 当前生产链路为：
 
-`RSS → GAS → sources/inbox/ → Codex → Draft PR → 人工合并 → GitHub Pages`
+`RSS → GAS → sources/inbox/ → Codex → Draft PR → 自动内容校验 → 自动合并 → GitHub Pages → 首页巡检`
 
 Gmail 只作为“新原料到达”的通知渠道。不得再从 Gmail 邮件正文读取新闻素材，也不得修改 Gmail 标签。
 
@@ -38,10 +38,13 @@ Gmail 只作为“新原料到达”的通知渠道。不得再从 Gmail 邮件�
    node scripts/editorial-validate.js <文章路径>
    ```
 
-9. 只有校验通过的文章才允许进入 `_posts/` 和 Draft PR。
-10. 按 `configs/codex-workflow.json` 执行；当前生产模式为 `draft_pr`，不得直接修改 main。
+9. 只有本地校验通过的文章才允许进入 `_posts/` 和 Draft PR。
+10. 按 `configs/codex-workflow.json` 执行；当前生产模式为 `draft_pr`，Codex 不得直接修改 main。
 11. 同一个 Draft PR 中必须同时包含：文章、运行日志、退稿日志或待人工文件，以及删除已处理 Inbox JSON。
-12. 只有分支、提交和 Draft PR 全部成功后，本轮才算成功。
+12. Draft PR 创建后，由 `Editorial PR Validation` 再次执行仓库级内容校验和 Jekyll 构建。
+13. 只有校验全部通过、分支名以 `codex/inbox-` 开头且 PR 来自本仓库时，`Auto Merge Codex PR` 才允许自动合并。
+14. 自动校验失败、存在冲突或不符合安全条件时，PR 必须保留，不得绕过检查强行合并。
+15. 合并成功后由 `Deploy GitHub Pages` 构建并发布网站。
 
 ## 必须读取
 
@@ -208,12 +211,24 @@ node scripts/editorial-validate.js path/to/article.md
 - `layout` 不是 `post`
 - `categories` 不是 `[nba, news]`
 - 三个固定标题缺失、重复或顺序错误
-- 来源区缺失或不在末尾
+- 来源区缺失或不在全文末尾
 - 出现自定义 CSS、内联样式、自定义 HTML 容器或 class
 - 出现额外 H1/H2、表格、引用块等结构
 - 正文段落结构异常
 - 文件名包含占位符或不符合命名规则
 - 与黄金模板骨架不一致
+
+GitHub Actions 会再次检查：
+
+- 单轮文章数不得超过 4 篇
+- Codex 新闻 PR 只能修改允许的内容目录
+- 不得修改或删除历史文章
+- 必须包含运行日志
+- 必须删除或移动至少一个已处理 Inbox JSON
+- 文件名、`event_hash` 和 HTTPS 原文链接必须合法
+- Jekyll 必须成功构建
+
+任何一项失败，自动合并必须停止。
 
 ## 日志与状态
 
@@ -246,18 +261,21 @@ NEEDS_REVIEW 写入：
 2. 读取必要配置和相关历史文章。
 3. 检查开放 Draft PR，排除已占用 Inbox 文件。
 4. 在临时路径完成解析、分组、去重、事实核验和写稿。
-5. 运行格式校验。
+5. 运行本地格式校验。
 6. 校验通过后再移动到 `_posts/`。
 7. 写运行日志、退稿日志和待人工文件。
-8. 创建专用分支、提交并创建 Draft PR。
+8. 创建 `codex/inbox-` 前缀的专用分支、提交并创建 Draft PR。
 9. 在同一 PR 中删除已处理 Inbox JSON。
-10. 任一步失败，不得删除 main 中的 Inbox 文件，不得猜测操作成功。
+10. 等待 GitHub Actions 自动内容校验与 Jekyll 构建。
+11. 校验通过后由 GitHub Actions 自动合并并启动 Pages Workflow。
+12. 任一步失败，不得删除 main 中的 Inbox 文件，不得猜测操作成功，不得绕过校验。
 
 ## 通知条件
 
 仅在以下情况通知用户：
 
 - 创建了 Draft PR
+- 自动校验或自动合并失败
 - 发现 `NEEDS_REVIEW` 素材
 - 创建了严重问题 Issue
 - 出现权限、解析、网络或写入异常
