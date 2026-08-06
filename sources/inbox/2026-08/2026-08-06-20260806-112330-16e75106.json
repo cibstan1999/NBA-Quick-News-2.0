@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260806-112330",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-06T11:23:30+08:00",
+  "fetched_at": "2026-08-06 11:23:30",
+  "timezone": "Asia/Shanghai",
+  "item_count": 3,
+  "sources": [
+    "Yahoo Sports NBA",
+    "RealGM NBA"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Warriors Draymond Green doesn’t care that he doesn’t have a no-trade clause",
+      "link": "https://sports.yahoo.com/articles/warriors-draymond-green-doesn-t-005930065.html",
+      "published_at": "Thu, 06 Aug 2026 00:59:30 +0000",
+      "timestamp": 1785977970000,
+      "guid": "394a9811-0dc7-3f28-a881-9b19c15096e1",
+      "fingerprint": "3a31c7448297ea74",
+      "content": "SAN FRANCISCO, CA - APRIL 9: Draymond Green #23 of the Golden State Warriors dribbles the ball during the game against the Los Angeles Lakers on April 9, 2026 at Chase Center in San Francisco, California. NOTE TO USER: User expressly acknowledges and agrees that, by downloading and or using this photograph, user is consenting to the terms and conditions of Getty Images License Agreement. Mandatory Copyright Notice: Copyright 2026 NBAE (Photo by Adam Pantozzi/NBAE via Getty Images) | NBAE via Getty Images\tThe biggest talk around the Golden State Warriors lately has been Draymond Green’s contract. Shortly after LeBron James announced that he would be signing with the Philadelphia 76ers, the Warriors re-signed Green for one year and $27.7 million. \n\nFor some fans, this was seen as an overpay, but the reality is very simple: Green was always going to get that deal, unless James joined the Dubs. Green had the opportunity to opt into a one-year deal that would pay him that same figure, but chose to opt out to allow the Warriors maximum flexibility as they chased the NBA’s all-time scoring leader. There was, without question, an understanding and a handshake that the Warriors would allow Green to recoup all that money should James sign elsewhere, barring another move that Draymond signed off on. \n\nBut there was one part that some people found a little more surprising. Green did not negotiate for a no-trade clause when he re-signed, but does receive a 15% trade kicker, which. means he’ll receive roughly $4.2 million should the Warriors trade him at any point during the season. Both the trade kicker and the lack of a no-trade clause were in the previous deal that the four-time All-Star opted out of.\n\nAnyone who knows Green is probably not surprised by this. And on his popular podcast and YouTube show, The Draymond Green Show, the defensive star explained himself:\n\n“I think it was something that we could have fought over, but it wasn’t worth fighting over,” Green said, as transcribed by NBC Sports Bay Area. “I think if the Warriors want to trade me at some point in the season, they want to trade me. I’ve never been a guy who wants to stay somewhere where I’m not wanted.” \n\nThat makes perfect sense, and it’s very in line with how Green has approached these things in the past. He’s made it abundantly clear that he wants to be a Warrior for the rest of his career, but only if he’s actually wanted. \n\nBarring a superstar becoming available, it is almost a guarantee that the Warriors won’t trade Green this year. He’ll enter free agency next offseason, and likely re-sign on a more modest deal that aligns with Steph Curry’s future."
+    },
+    {
+      "source": "RealGM NBA",
+      "title": "Dillon Brooks, Suns Agree To Three-Year, $73M Extension",
+      "link": "https://basketball.realgm.com/wiretap/286918/Dillon-Brooks-Suns-Agree-To-Three-Year-$73M-Extension",
+      "published_at": "Wed, 05 Aug 2026 22:27:23 EDT",
+      "timestamp": 1785983243000,
+      "guid": "https://basketball.realgm.com/wiretap/286918/Dillon-Brooks-Suns-Agree-To-Three-Year-$73M-Extension",
+      "fingerprint": "9b3ba89420583023",
+      "content": "Phoenix Suns forward Dillon Brooks agreed to a three-year, $73 million contract extension through the 2029-30 season, agent Mike George of Klutch Sports told ESPN on Wednesday night.\n\nBrooks has become a key part of the Suns' two-way, hard-nosed culture under coach Jordan Ott and landed a new fully guaranteed long-term deal."
+    },
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Dillon Brooks contract extension details: Suns lock in NBA 'villain'",
+      "link": "https://sports.yahoo.com/articles/dillon-brooks-contract-extension-details-025035692.html",
+      "published_at": "Thu, 06 Aug 2026 02:50:35 +0000",
+      "timestamp": 1785984635000,
+      "guid": "7a8502a7-6656-39d3-b27b-9fca8ca5e204",
+      "fingerprint": "aa84ef17802a0754",
+      "content": "Dillon Brooks will be bothering the NBA on behalf of the Phoenix Suns for years to come.\n\nThe veteran has signed a contract extension with the Suns, he confirmed to the Arizona Republic, part of the USA TODAY Network, on Wednesday, Aug. 5. The Republic confirmed Brooks' deal is a three-year, $73 million extension that ties him to Phoenix through the 2029-30 season.\n\n\"Villain is here to stay,\" Brooks told The Republic. \"Championship is all on my mind.\"\n\nESPN's Shams Charania first reported the news, via Brooks' Klutch Sports agent. \n\nThe forward joined the Suns last offseason as part of the massive trade that sent Kevin Durant to the Houston Rockets. Phoenix, which is led by five-time All-Star Devin Booker, also got Jalen Green in the deal.\n\nBrooks played in 56 games last season for the Suns, averaging a career-high 20.2 points with 3.6 rebounds, 1.8 assists and 1.0 steals per outing. Phoenix was swept by the Oklahoma City Thunder in the first round of the NBA playoffs.\n\nThe former Oregon standout was drafted by the Rockets in the second round of the 2017 draft. He was traded to the Memphis Grizzlies on draft night, where he spent six seasons.\n\nBrooks landed back in Houston in 2023 as part of a five-team trade. He played two seasons there.\n\nBrooks has developed a reputation as an antagonist in the NBA because of his gritty style of play and bold expression of his competitive nature. During the Thunder's playoff series against the Los Angeles Lakers in May, he sat courtside to troll LeBron James.\n\nThis article originally appeared on USA TODAY: Dillon Brooks contract extension details: Suns lock in NBA 'villain'"
+    }
+  ]
+}
