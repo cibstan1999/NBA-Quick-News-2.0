@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260807-045824",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-07T04:58:24+08:00",
+  "fetched_at": "2026-08-07 04:58:24",
+  "timezone": "Asia/Shanghai",
+  "item_count": 2,
+  "sources": [
+    "Yahoo Sports NBA"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Kevon Looney has a chip on his shoulder this season, ready to bring championship experience to Lakers",
+      "link": "https://sports.yahoo.com/articles/kevon-looney-chip-shoulder-season-183953797.html",
+      "published_at": "Thu, 06 Aug 2026 18:39:53 +0000",
+      "timestamp": 1786041593000,
+      "guid": "32ba4541-3880-337f-a403-9bec0744473d",
+      "fingerprint": "4747efb54bc7cdc9",
+      "content": "MILWAUKEE, WISCONSIN - JANUARY 13: Kevon Looney #5 of the Golden State Warriors warms up before a game against the Milwaukee Bucks at Fiserv Forum on January 13, 2024 in Milwaukee, Wisconsin. NOTE TO USER: User expressly acknowledges and agrees that, by downloading and or using this photograph, User is consenting to the terms and conditions of the Getty Images License Agreement. (Photo by Patrick McDermott/Getty Images) | Getty Images\tWhile the Lakers are oozing with talent at the top of the roster in Luka Dončić, Austin Reaves and Walker Kessler, this team has two things it lacks: veterans and championships. \n\nWith a push toward youth, LA has just one player who’s over 30 who also happens to have lifted the Larry O’Brien trophy in Kevon Looney.\n\nThe former Warriors and Pelicans center signed a one-year deal with the purple and gold, fulfilling his wish of becoming a Laker. In an interview on ESPN LA’s “Mason & Ireland” show, he discussed embracing his role and being ready to bring his experience to this team.\n\n“Just filling that backup center role, being a veteran for this team and bringing some championship experience to the team. Just bring that toughness that I always try to bring every time I play. That’s what my role’s going to be and I look forward to getting out there and showing people what I can do.”\n\nGiven that Looney was with Golden State for most of their title run, he witnessed firsthand what it takes to dominate the NBA. Those championship habits are something he can share with a player like Kessler, who has never even played in a playoff game and is now on a team with a goal of winning it all. \n\nIf Looney is willing to teach Kessler everything he’s learned during his decade in the league, that might make his signing to the Lakers worth it regardless of his performance on the court. However, Looney believes he still has more to contribute than just words of wisdom.\n\n“I got a chip on my shoulder. I want to just show people what I can do. I want to be one of the best offensive rebounders, one of the best rebounders in the league. I want to be one of the best role players in the league. I want to bring a lot of spark to our bench and a lot of leadership.\n\nMy goal every year is always to play every game and be consistent. I had a couple injuries so I wasn’t able to meet that goal last year so I want to get back on the right step and prove myself all over again and show them why I’m an ironman, a tough man and one of the best rebounders in the league.”\n\nThroughout his career, Looney has always been a great offensive rebounder. Even last season, playing in just 21 matchups, he averaged 2.3 offensive boards per game. That level of production would’ve made him the second-best offensive rebounder on the Lakers.\n\nIf Looney can remain healthy, he is on track to be a star in his role. He understands what the Lakers need from him and has the skill set to provide it.\n\nYou can follow Edwin on Twitter at @ECreates88 or on Bluesky at @ecreates88.bs\n\n...[正文超出 3000 字符，已截断]"
+    },
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "无标题",
+      "link": "https://sports.yahoo.com/videos/luke-kuechly-shares-coolest-part-200404477.html",
+      "published_at": "Thu, 06 Aug 2026 20:53:16 +0000",
+      "timestamp": 1786049596000,
+      "guid": "https://sports.yahoo.com/videos/luke-kuechly-shares-coolest-part-200404477.html",
+      "fingerprint": "68c0c2d43e9e88f0",
+      "content": ""
+    }
+  ]
+}
