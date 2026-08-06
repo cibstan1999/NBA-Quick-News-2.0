@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "中文标题"
-date: 2026-08-06 00:00:00 +0800 # 必须替换为真实发布日期时间
+date: 2026-08-06 00:00:00 +0800
 categories: [nba, news]
 tags: [标签1, 标签2]
 news_type: "主要事件标签"
@@ -10,7 +10,7 @@ source_title: "英文原题"
 source_url: "原文链接"
 event_core: "核心事件"
 event_key: "事件键"
-event_hash: "事件哈希"
+event_hash: "事件哈希前8位"
 event_type: "事件类型"
 event_stage: "事件阶段"
 canonical_topic: ""
