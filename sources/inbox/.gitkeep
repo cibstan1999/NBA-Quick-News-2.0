@@ -1,0 +1,1 @@
+# 保留 sources/inbox 目录；待处理 JSON 会由 GAS 动态写入并由 Codex 在处理后删除。
