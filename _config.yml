@@ -12,6 +12,10 @@ theme: minima
 lang: zh-CN
 show_excerpts: true
 
+# 顶部导航仅保留首页，避免把内部工作文档暴露为导航入口。
+header_pages:
+  - index.md
+
 defaults:
   - scope:
       path: ""
