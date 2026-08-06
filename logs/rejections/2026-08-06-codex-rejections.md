@@ -102,3 +102,17 @@
   - 素材指纹：`8484890577357c2e`
   - 原因：与当日已发布续约稿及同批来源重复，新增内容主要为观点和背景。
   - 来源：https://sports.yahoo.com/articles/suns-secure-dillon-brooks-team-021000845.html
+
+## 批次 20260806-132825
+
+- **Dillon Brooks extends with Phoenix for three years, $73 million**
+  - 结论：REJECT
+  - 素材指纹：`ba7983ec61240480`
+  - 原因：与当日已发布的狄龙·布鲁克斯三年7300万美元续约属于同一事件；新增的全额保障、无选项及首年薪资细节不足以构成独立事件阶段升级。
+  - 来源：https://sports.yahoo.com/articles/dillon-brooks-extends-phoenix-three-045744759.html
+
+- **Hoops Rumors Front Office Subscriber Chat: 8/6/2026**
+  - 结论：REJECT
+  - 素材指纹：`e0ab5af971a2219b`
+  - 原因：订阅会员聊天活动通知，不是NBA新闻事件，也没有可供发布的独立事实。
+  - 来源：https://www.hoopsrumors.com/2026/08/hoops-rumors-front-office-subscriber-chat-8-6-2026.html
