@@ -8,7 +8,7 @@
 // ============================================================================
 
 const FEEDS = [
-  { name: "ESPN NBA", url: "https://www.espn.com/espn/rss/nba/news" },
+  { name: "Yahoo Sports NBA", url: "https://sports.yahoo.com/nba/rss.xml" },
   { name: "RealGM NBA", url: "https://basketball.realgm.com/rss/wiretap/0/0.xml" }
 ];
 
