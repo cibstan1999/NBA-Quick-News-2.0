@@ -40,3 +40,65 @@
   - 素材指纹：`aa84ef17802a0754`
   - 原因：与已发布的狄龙·布鲁克斯续约稿及同批 RealGM 素材属于同一事件；新增内容主要是引语、背景和赛季数据，不构成实质更新。
   - 来源：https://sports.yahoo.com/articles/dillon-brooks-contract-extension-details-025035692.html
+
+## 批次 20260806-120009 / 20260806-122823
+
+- **Kings Rumors: Acuff, Sabonis, LaVine, Kuminga, More**
+  - 素材指纹：`874466df3af70f4b`
+  - 原因：多主题传闻汇总，主体分散，缺少足以单独发布的明确事件进展。
+  - 来源：https://www.hoopsrumors.com/2026/08/kings-rumors-acuff-sabonis-lavine-kuminga-more.html
+
+- **Jalen Pickett, Clippers Agree To Two-Way Deal**
+  - 素材指纹：`76b178e911e77063`
+  - 原因：双向合同属于边缘阵容补充，综合新闻价值低于本轮四篇正式发布内容。
+  - 来源：https://www.hoopsrumors.com/2026/08/jalen-pickett-clippers-agree-to-two-way-deal.html
+
+- **Atlantic Notes: Brown, Wagner, Nets, Martin**
+  - 素材指纹：`d1cee2a95d4a51d6`
+  - 原因：多条简讯混合，主要内容为球员评论、合同细节补充与球队背景，没有单一高价值核心事件。
+  - 来源：https://www.hoopsrumors.com/2026/08/atlantic-notes-brown-wagner-nets-martin.html
+
+- **Hoops Rumors Glossary: Exhibit 9 Contract**
+  - 素材指纹：`0c9d676ce0ad5d72`
+  - 原因：规则科普文章，不是新增新闻事件。
+  - 来源：https://www.hoopsrumors.com/2026/08/hoops-rumors-glossary-exhibit-9-contract-3.html
+
+- **Early NBA Maximum Salary Projections For 2027/28**
+  - 素材指纹：`38f5d371e2bd1dda`
+  - 原因：基于预估工资帽的推算型内容，并非已发生的独立新闻事件。
+  - 来源：https://www.hoopsrumors.com/2026/08/early-nba-maximum-salary-projections-for-2027-28.html
+
+- **Nuggets Hire Dave Joerger As Assistant Coach**
+  - 素材指纹：`35fe465a84fc4e45`
+  - 原因：此前聘用消息已报道，本次仅为球队官宣补充，新闻增量有限。
+  - 来源：https://www.hoopsrumors.com/2026/08/nuggets-to-hire-dave-joerger-as-top-assistant-coach.html
+
+- **Celtics Sign Dillon Mitchell To Two-Way Deal**
+  - 素材指纹：`9cb3c2bf8c50d106`
+  - 原因：仓库近期已发布同一签约事件，属于跨轮次重复。
+  - 来源：https://www.hoopsrumors.com/2026/08/celtics-sign-dillon-mitchell-to-two-way-deal.html
+
+- **Heat Notes: LaVine, Targets, Spoelstra, Johnson**
+  - 素材指纹：`cd4d9ef26e206f21`
+  - 原因：潜在目标与阵容讨论为主，没有签约、交易或谈判阶段的可靠进展。
+  - 来源：https://www.hoopsrumors.com/2026/08/heat-notes-lavine-targets-spoelstra-johnson.html
+
+- **Suns, Dillon Brooks Agree To Three-Year Extension**
+  - 素材指纹：`7a935dfcbbea8495`
+  - 原因：与当日已发布的狄龙·布鲁克斯三年7300万美元续约稿重复；新增保障与选项细节不足以单独再发一篇。
+  - 来源：https://www.hoopsrumors.com/2026/08/suns-dillon-brooks-agree-to-three-year-extension.html
+
+- **Clippers To Waive Sean Pedulla**
+  - 素材指纹：`0a22da7624996c25`
+  - 原因：双向合同名额调整，独立新闻价值较低。
+  - 来源：https://www.hoopsrumors.com/2026/08/clippers-to-waive-sean-pedulla.html
+
+- **Why Draymond Green Didn’t Push For No-Trade Clause**
+  - 素材指纹：`6aa746ac707de1e3`
+  - 原因：与上一轮已退稿的同一播客评论事件重复，没有新增合同或交易事实。
+  - 来源：https://www.hoopsrumors.com/2026/08/why-draymond-green-didnt-push-for-no-trade-clause.html
+
+- **Suns secure Dillon Brooks on a team-friendly 3 year, $73 million extension**
+  - 素材指纹：`8484890577357c2e`
+  - 原因：与当日已发布续约稿及同批来源重复，新增内容主要为观点和背景。
+  - 来源：https://sports.yahoo.com/articles/suns-secure-dillon-brooks-team-021000845.html
