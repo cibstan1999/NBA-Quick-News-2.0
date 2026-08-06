@@ -1,0 +1,60 @@
+name: Editorial PR Validation
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+    paths:
+      - '_posts/**'
+      - 'logs/**'
+      - 'sources/**'
+      - 'scripts/**'
+      - '_config.yml'
+      - '_layouts/**'
+      - '_includes/**'
+      - '_sass/**'
+      - 'assets/**'
+      - 'index.md'
+      - '.github/workflows/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: editorial-pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate articles and Jekyll build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Validate editorial changes
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: node scripts/validate-editorial-pr.js
+
+      - name: Build site with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
