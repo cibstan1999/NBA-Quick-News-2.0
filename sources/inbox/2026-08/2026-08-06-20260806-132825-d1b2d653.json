@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260806-132825",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-06T13:28:25+08:00",
+  "fetched_at": "2026-08-06 13:28:25",
+  "timezone": "Asia/Shanghai",
+  "item_count": 2,
+  "sources": [
+    "Yahoo Sports NBA",
+    "Hoops Rumors"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Dillon Brooks extends with Phoenix for three years, $73 million",
+      "link": "https://sports.yahoo.com/articles/dillon-brooks-extends-phoenix-three-045744759.html",
+      "published_at": "Thu, 06 Aug 2026 04:57:44 +0000",
+      "timestamp": 1785992264000,
+      "guid": "3490c8aa-cb8f-385a-94b1-17375d733787",
+      "fingerprint": "ba7983ec61240480",
+      "content": "Phoenix felt Dillon Brooks was a catalyst in changing the franchise's culture last season, and it didn't hurt that he added a career-best 20.2 points per game.\n\nBecause of all that, the Suns wanted to extend Brooks and keep him in the Valley of the Sun, and that came together Wednesday night. Brooks and Phoenix have agreed to a three-year, $73 million extension, reports Shams Charania of ESPN. This contract is fully guaranteed with no options on either side, reports the well-connected John Gambadoro of Arizona Sports 98.7.\n\nThis had been expected, the only question was the number. Brooks is set to make just under $20 million this season, and the first season of the extension pays him $22 million.\n\nBrooks' offensive spark last season — 20.2 points per game, but on a slightly below-league-average 54 true shooting percentage — was a bonus. When he came over from the Rockets in the Kevin Durant trade, he was seen more as a physical defense player and a guy who got under the other team's skin. That toughness rubbed off on his teammates last season, he was considered one of the leaders in the Phoenix locker room, and the off-the-court impact was what the Suns felt they could not let go.\n\nBrooks becomes the latest Suns player to sign an extension with the team, joining Collin Gillespie, Mark Williams and Jordan Goodwin."
+    },
+    {
+      "source": "Hoops Rumors",
+      "title": "Hoops Rumors Front Office Subscriber Chat: 8/6/2026",
+      "link": "https://www.hoopsrumors.com/2026/08/hoops-rumors-front-office-subscriber-chat-8-6-2026.html",
+      "published_at": "Thu, 06 Aug 2026 05:21:46 +0000",
+      "timestamp": 1785993706000,
+      "guid": "https://www.hoopsrumors.com/?p=486761",
+      "fingerprint": "e0ab5af971a2219b",
+      "content": "Hoops Rumors’ Arthur Hill will hold a live chat Thursday at 11 am Central time (noon Eastern) exclusively for Trade Rumors Front Office subscribers. Use the link below to ask a question in advance, participate in the live event and read the transcript afterward.\n\n  \n  Unlock Subscriber-Exclusive Articles Like This One With a Trade Rumors Front Office Subscription\n      \n      \n      BENEFITS\n    \n      \n  \n    Access weekly subscriber-only articles by Luke Adams\n    Join exclusive weekly live chats with Arthur Hill\n    Remove ads and support our writers."
+    }
+  ]
+}
