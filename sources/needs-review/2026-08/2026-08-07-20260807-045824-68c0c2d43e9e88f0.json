@@ -1,0 +1,16 @@
+{
+  "decision": "NEEDS_REVIEW",
+  "reason": "素材标题为‘无标题’且正文为空，无法确认事实内容与 NBA 关联。",
+  "source_batch": "sources/inbox/2026-08/2026-08-07-20260807-045824-2ea05de7.json",
+  "batch_id": "20260807-045824",
+  "item": {
+    "source": "Yahoo Sports NBA",
+    "title": "无标题",
+    "link": "https://sports.yahoo.com/videos/luke-kuechly-shares-coolest-part-200404477.html",
+    "published_at": "Thu, 06 Aug 2026 20:53:16 +0000",
+    "timestamp": 1786049596000,
+    "guid": "https://sports.yahoo.com/videos/luke-kuechly-shares-coolest-part-200404477.html",
+    "fingerprint": "68c0c2d43e9e88f0",
+    "content": ""
+  }
+}
