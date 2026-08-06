@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "publication_mode": "draft_pr",
+  "timezone": "Asia/Shanghai",
+  "source_label": "[NBA-Raw]",
+  "in_review_label": "[NBA-In-Review]",
+  "processed_label": "[NBA-Processed]",
+  "rejected_label": "[NBA-Rejected]",
+  "needs_review_label": "[NBA-Needs-Review]",
+  "max_emails_per_run": 10,
+  "max_articles_per_run": 4,
+  "event_dedupe_window_hours": 168,
+  "target_branch": "main",
+  "posts_directory": "_posts",
+  "rejection_log_directory": "logs/rejections",
+  "run_log_directory": "logs/codex-runs"
+}
