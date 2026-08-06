@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260807-035825",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-07T03:58:25+08:00",
+  "fetched_at": "2026-08-07 03:58:25",
+  "timezone": "Asia/Shanghai",
+  "item_count": 2,
+  "sources": [
+    "Yahoo Sports NBA"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Has Jaylen Brown talked with Jayson Tatum since trade? ‘Not really'",
+      "link": "https://sports.yahoo.com/articles/jaylen-brown-talked-jayson-tatum-153449883.html",
+      "published_at": "Thu, 06 Aug 2026 15:34:49 +0000",
+      "timestamp": 1786030489000,
+      "guid": "4ba86352-fe01-31be-ade8-3c082ccfd84b",
+      "fingerprint": "c72ac30f6248dbc1",
+      "content": "Has Jaylen Brown talked with Jayson Tatum since trade? ‘Not really' originally appeared on NBC Sports Boston\n\nThe Celtics drafted Jaylen Brown with the No. 3 overall pick in 2016. The Celtics drafted Jayson Tatum with the No. 3 overall pick a year later.\n\nTogether, they represented both the present core and the entire future of the Celtics organization, working hand-in-hand as a superstar duo and winning a championship together in 2024.\n\nThroughout that journey, outsiders wondered how close the Jays were off the court. And while that relationship might have evolved over time, it appears to have ended on a sour note.\n\nOn Thursday, when Brown was officially introduced as a member of the Philadelphia 76ers, he was asked if he’s spoken to Tatum since the trade went down more than a month ago.\n\n“Uh, not really,” Brown answered.\n\nThat is, of course, a surprising reality, considering that the two stars worked together as the faces of the franchise for so long. But it’s also in line with what many considered or assumed to have been a professional — but not necessarily personal — relationship between Brown and Tatum.\n\n“We won a championship together, so anybody that you win a championship [with], you would think like that’s what a brotherhood or a lifelong legacy would entail,” Brown said when asked if he and Tatum hoped their on-court partnership would continue. “Obviously, there’s ups and downs with any type of relationship, for sure. But on my end, it’s nothing but respect. Besides when he plays the Sixers, I hope he does well. But other than that, everything for me is just based on respect.”\n\nBrown also shared some leftover distaste about how the process of being traded played out slowly at the start of the summer.\n\n“The whole process,” Brown said when asked what bothered him about the Celtics’ handling of his availability in trades. “But to be honest, my mind is so focused on what’s in front of me. To be honest, I’m moving on. Maybe one day we’ll share the details of how everything transpired and all the moving parts that took place in this. Obviously, it’s a lot of speculation. I feel no need to chime in on it, because I’m focused on what’s in front of me.”"
+    },
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Andre Jackson Jr. signs deal with Toronto Raptors.",
+      "link": "https://sports.yahoo.com/articles/andre-jackson-jr-signs-deal-192625858.html",
+      "published_at": "Thu, 06 Aug 2026 19:26:25 +0000",
+      "timestamp": 1786044385000,
+      "guid": "e8d775e8-4aa3-3beb-907d-33d5465653ea",
+      "fingerprint": "3c5caa9eda5780a3",
+      "content": "News broke late Tuesday evening that former UConn star and Milwaukee Bucks wing Andre Jackson Jr. signed a deal with the Toronto Raptors ahead of training camp for the 2026-27 NBA season.\n\nWelcome to Toronto, Andre Jackson Jr. 🤝 pic.twitter.com/WvQxJL8rlw\n\n— Toronto Raptors (@Raptors) August 5, 2026Jackson played three seasons in Storrs from 2020-23 and helped lead UConn to its fifth national championship in 2023, where he stuffed the stat sheet in 36 games with 6.7 PPG, 6.2 RPG & 4.7 APG. The Amsterdam, New York, native played 85 games in a Husky uniform before declaring for the draft after the title run.\n\nFollowing UConn’s championship, Jackson was scooped up by the Milwaukee Bucks with the 36th pick in the second round in the 2023 NBA Draft. He spent the next three seasons in Milwaukee in all types of roles. His best season came his second year in 2024-25, when he played in 67 games with 43 starts and averaged 3.4 PPG and 2.7 RPG. Last season, he only played 8.5 MPG across 48 appearances, collecting many DNPs from head coach Doc Rivers.\n\nAndre Jackson Jr. spiked this block. pic.twitter.com/cl2UFHcIEQ\n\n— Milwaukee Bucks (@Bucks) April 26, 2024Jackson is looking for a fresh start north of the border, but he is going to have to earn it. Toronto has all but one of its roster spots filled out heading into training camp, so he will be fighting for the final roster spot. The contract itself is an Exhibit 10 contract, meaning it’s a one-year, non-guaranteed contract that gives the Raptors his G-League rights should he not make the opening night roster.\n\nUConn had nine players suit up in the NBA last season and is adding Tarris Reed Jr. and Alex Karaban to the list, but losing Tyrese Martin after he signed with FC Barcelona overseas. If Jackson plays any minutes in either Toronto or with another team in the NBA this year, UConn would more likely than not have 10 players record minutes in the association in a single season for the first time since the 2000’s."
+    }
+  ]
+}
