@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260807-072826",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-07T07:28:26+08:00",
+  "fetched_at": "2026-08-07 07:28:26",
+  "timezone": "Asia/Shanghai",
+  "item_count": 2,
+  "sources": [
+    "RealGM NBA"
+  ],
+  "items": [
+    {
+      "source": "RealGM NBA",
+      "title": "Terrell Brown Jr., Jazz Agree To Contract",
+      "link": "https://basketball.realgm.com/wiretap/286928/Terrell-Brown-Jr-Jazz-Agree-To-Contract",
+      "published_at": "Thu, 06 Aug 2026 18:22:06 EDT",
+      "timestamp": 1786054926000,
+      "guid": "https://basketball.realgm.com/wiretap/286928/Terrell-Brown-Jr-Jazz-Agree-To-Contract",
+      "fingerprint": "a7603dec5daecff7",
+      "content": "Terrell Brown Jr. and the Utah Jazz have agreed to a contract.\n\nBrown has played for the Greensboro Storm of the G League over the past three seasons. Last season, Brown averaged 11.9 points, 3.9 rebounds and 6.1 assists in 50 games as the Storm won the G League championship. \n\nBrown played for the Charlotte Hornets in Summer League this year, averaging 3.3 points and 3.0 assists in 11.7 minutes across three games. \n\nBrown went undrafted out of Washington in 2022."
+    },
+    {
+      "source": "RealGM NBA",
+      "title": "Joel Embiid Healthy, 'Extra Motivated' Entering New Season",
+      "link": "https://basketball.realgm.com/wiretap/286929/Joel-Embiid-Healthy-Extra-Motivated-Entering-New-Season",
+      "published_at": "Thu, 06 Aug 2026 19:06:13 EDT",
+      "timestamp": 1786057573000,
+      "guid": "https://basketball.realgm.com/wiretap/286929/Joel-Embiid-Healthy-Extra-Motivated-Entering-New-Season",
+      "fingerprint": "bc961ad2340ec46d",
+      "content": "Joel Embiid is healthy and \"extra motivated\" heading into the season with LeBron James and Jaylen Brown now on his roster, according to Philadelphia 76ers president of basketball operations Mike Gansey. Gansey addressed Embiid's status during an interview with ESPN's Kevin Negandhi that aired Thursday.\n\n\"Joel is great,\" said Gansey. \"This is like the first summer I think in a while that he's been healthy, so he's been in the gym working out. He's been lifting weights. He's extra motivated. He wants to play a lot of games, and he's excited about the group we've built now. Even before these trades and LeBron, I think he was excited. So he's motivated to have a good year and he's ready to go.\"\n\nThe number of games Embiid ultimately plays this season remains to be determined. He has appeared in just 96 combined regular-season games over the past three years and hasn't played more than 40 games in a season since his 2022-23 regular season MVP campaign. Gansey said the organization will finalize a plan for managing Embiid's workload once the schedule is released next week.\n\n\"We'll sit down, talk to him, talk to performance staff, talk to [coach] Nick [Nurse] and try to figure out a plan,\" said Gansey. \"These guys wanna play every game, but we got to map it out and see what's best for him and the team.\"\n\nEmbiid played in just 38 regular-season games last season and underwent an emergency appendectomy in April. He returned for Game 4 of Philadelphia's first-round series against Boston before missing time in the second round against New York due to ankle and hip injuries, ultimately appearing in seven of the team's 11 playoff games.\n\nEmbiid's healthier offseason has coincided with a transformative summer for the franchise. Philadelphia traded Paul George and four draft picks to Boston for Brown before James signed with the Sixers in free agency. James' agent, Rich Paul, said James spoke directly with Embiid during his decision-making process to assess his health.\n\nGansey said he reviewed footage of James and Embiid playing together for Team USA during the 2024 Olympics gold medal run and came away encouraged, though he acknowledged coach Nick Nurse will need time to build chemistry among a talented starting group that includes James, Tyrese Maxey, VJ Edgecombe, Brown and Embiid.\n\n\"Any given night, anyone can be the guy,\" said Gansey. \"So I think sacrifice will be big for us. But Joel is arguably the best and most talented big I've ever been around. He's gonna be a huge piece to our success. We have LeBron and Jaylen, but Joel's gonna be as important as those guys. LeBron's had a lotta usage his whole career, but last year [with] the Lakers with [Luka [Doncic]] out, he was the guy. Jaylen last year with [[Jayson] Tatum] out, he was the guy. VJ and Tyrese did a lot outside of when Joel plays or doesn't play. So everyone's been used to that for their career, but I think getting them all together, in camp, in practice, they're all going to benefit from each o\n\n...[正文超出 3000 字符，已截断]"
+    }
+  ]
+}
