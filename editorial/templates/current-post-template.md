@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "中文标题"
-date: YYYY-MM-DD HH:mm:ss +0800
+date: 2026-08-06 00:00:00 +0800 # 必须替换为真实发布日期时间
 categories: [nba, news]
 tags: [标签1, 标签2]
 news_type: "主要事件标签"
