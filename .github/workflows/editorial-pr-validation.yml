@@ -21,12 +21,19 @@ on:
       - 'assets/**'
       - 'index.md'
       - '.github/workflows/**'
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: '需要重新校验的 Codex PR 编号'
+        required: true
+        type: string
 
 permissions:
   contents: read
+  pull-requests: read
 
 concurrency:
-  group: editorial-pr-${{ github.event.pull_request.number }}
+  group: editorial-pr-${{ github.event.pull_request.number || inputs.pr_number || github.run_id }}
   cancel-in-progress: true
 
 jobs:
@@ -35,10 +42,52 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Resolve trusted PR context
+        id: pr
+        uses: actions/github-script@v7
+        env:
+          INPUT_PR_NUMBER: ${{ inputs.pr_number }}
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const number =
+              context.payload.pull_request?.number ||
+              Number(process.env.INPUT_PR_NUMBER || 0);
+
+            if (!number) {
+              core.setFailed('无法确定需要校验的 PR 编号。');
+              return;
+            }
+
+            const { data: pr } = await github.rest.pulls.get({
+              owner,
+              repo,
+              pull_number: number
+            });
+
+            const trusted =
+              pr.state === 'open' &&
+              pr.base.ref === 'main' &&
+              pr.head.repo?.full_name === `${owner}/${repo}` &&
+              pr.head.ref.startsWith('codex/inbox-') &&
+              pr.user?.login === owner;
+
+            if (!trusted) {
+              core.setFailed(`PR #${number} 不符合 Codex 编辑 PR 的安全条件。`);
+              return;
+            }
+
+            core.setOutput('number', String(pr.number));
+            core.setOutput('base_sha', pr.base.sha);
+            core.setOutput('head_sha', pr.head.sha);
+            core.setOutput('head_ref', pr.head.ref);
+            core.info(`准备校验 PR #${pr.number}，head=${pr.head.sha}`);
+
       - name: Checkout PR head
         uses: actions/checkout@v6
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
+          ref: ${{ steps.pr.outputs.head_sha }}
           fetch-depth: 0
 
       - name: Setup Node.js
@@ -48,9 +97,9 @@ jobs:
 
       - name: Validate editorial changes
         env:
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
-          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+          BASE_SHA: ${{ steps.pr.outputs.base_sha }}
+          HEAD_SHA: ${{ steps.pr.outputs.head_sha }}
+          HEAD_REF: ${{ steps.pr.outputs.head_ref }}
         run: node scripts/validate-editorial-pr.js
 
       - name: Build site with Jekyll
