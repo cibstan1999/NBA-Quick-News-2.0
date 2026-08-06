@@ -49,6 +49,12 @@ function validate(filePath) {
     fail(`${filePath}: categories 必须严格为 [nba, news]`);
   }
 
+  const eventHash = String(frontMatter.values.event_hash || '')
+    .replace(/^["']|["']$/g, '');
+  if (!/^[0-9a-f]{8}$/.test(eventHash)) {
+    fail(`${filePath}: event_hash 必须是 8 位小写十六进制`);
+  }
+
   const forbidden = [
     /<style\b/i, /<font\b/i, /\sstyle\s*=/i,
     /class\s*=/i, /id\s*=/i, /font-family\s*:/i,
