@@ -1,5 +1,9 @@
 name: Editorial PR Validation
 
+run-name: >-
+  Editorial validation PR #${{ github.event.pull_request.number || inputs.pr_number }}
+  @ ${{ github.event.pull_request.head.sha || inputs.head_sha }}
+
 on:
   pull_request:
     branches:
@@ -27,10 +31,15 @@ on:
         description: '需要重新校验的 Codex PR 编号'
         required: true
         type: string
+      head_sha:
+        description: '触发恢复时记录的 PR head SHA'
+        required: false
+        type: string
 
 permissions:
-  contents: read
-  pull-requests: read
+  contents: write
+  pull-requests: write
+  actions: write
 
 concurrency:
   group: editorial-pr-${{ github.event.pull_request.number || inputs.pr_number || github.run_id }}
@@ -47,6 +56,7 @@ jobs:
         uses: actions/github-script@v7
         env:
           INPUT_PR_NUMBER: ${{ inputs.pr_number }}
+          INPUT_HEAD_SHA: ${{ inputs.head_sha }}
         with:
           script: |
             const owner = context.repo.owner;
@@ -54,6 +64,7 @@ jobs:
             const number =
               context.payload.pull_request?.number ||
               Number(process.env.INPUT_PR_NUMBER || 0);
+            const expectedHeadSha = String(process.env.INPUT_HEAD_SHA || '').trim();
 
             if (!number) {
               core.setFailed('无法确定需要校验的 PR 编号。');
@@ -78,6 +89,13 @@ jobs:
               return;
             }
 
+            if (expectedHeadSha && pr.head.sha !== expectedHeadSha) {
+              core.setFailed(
+                `PR #${number} head 已变化：期望 ${expectedHeadSha}，当前 ${pr.head.sha}。`
+              );
+              return;
+            }
+
             core.setOutput('number', String(pr.number));
             core.setOutput('base_sha', pr.base.sha);
             core.setOutput('head_sha', pr.head.sha);
@@ -89,6 +107,12 @@ jobs:
         with:
           ref: ${{ steps.pr.outputs.head_sha }}
           fetch-depth: 0
+
+      - name: Load trusted validators from main
+        shell: bash
+        run: |
+          git show origin/main:scripts/validate-editorial-pr.js > scripts/validate-editorial-pr.js
+          git show origin/main:scripts/editorial-validate.js > scripts/editorial-validate.js
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -107,3 +131,115 @@ jobs:
         with:
           source: ./
           destination: ./_site
+
+      - name: Merge recovered PR
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        uses: actions/github-script@v7
+        env:
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+          EXPECTED_HEAD_SHA: ${{ steps.pr.outputs.head_sha }}
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const prNumber = Number(process.env.PR_NUMBER || 0);
+            const expectedHeadSha = String(process.env.EXPECTED_HEAD_SHA || '');
+            const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+            let { data: pr } = await github.rest.pulls.get({
+              owner,
+              repo,
+              pull_number: prNumber
+            });
+
+            const trusted =
+              pr.state === 'open' &&
+              pr.base.ref === 'main' &&
+              pr.head.repo?.full_name === `${owner}/${repo}` &&
+              pr.head.ref.startsWith('codex/inbox-') &&
+              pr.user?.login === owner &&
+              pr.head.sha === expectedHeadSha;
+
+            if (!trusted) {
+              core.setFailed(`PR #${prNumber} 在合并前已发生变化或不符合安全条件。`);
+              return;
+            }
+
+            if (pr.draft) {
+              await github.graphql(
+                `mutation($id: ID!) {
+                  markPullRequestReadyForReview(input: { pullRequestId: $id }) {
+                    pullRequest { number isDraft }
+                  }
+                }`,
+                { id: pr.node_id }
+              );
+              await sleep(2000);
+            }
+
+            let merged = false;
+            let mergeSha = '';
+
+            for (let attempt = 1; attempt <= 8; attempt++) {
+              ({ data: pr } = await github.rest.pulls.get({
+                owner,
+                repo,
+                pull_number: prNumber
+              }));
+
+              if (pr.head.sha !== expectedHeadSha) {
+                core.setFailed(`PR #${prNumber} head 在校验后发生变化，停止合并。`);
+                return;
+              }
+
+              if (pr.mergeable === false || pr.mergeable_state === 'dirty') {
+                core.setFailed(`PR #${prNumber} 存在冲突，无法自动合并。`);
+                return;
+              }
+
+              try {
+                const result = await github.rest.pulls.merge({
+                  owner,
+                  repo,
+                  pull_number: prNumber,
+                  merge_method: 'squash',
+                  commit_title: `${pr.title} (#${prNumber})`
+                });
+
+                if (result.data.merged) {
+                  merged = true;
+                  mergeSha = result.data.sha || '';
+                  break;
+                }
+              } catch (error) {
+                if (![405, 409].includes(error.status) || attempt === 8) throw error;
+              }
+
+              core.info(`PR #${prNumber} 暂不可合并，等待状态刷新（${attempt}/8）。`);
+              await sleep(3000);
+            }
+
+            if (!merged) {
+              core.setFailed(`PR #${prNumber} 校验通过，但自动合并未成功。`);
+              return;
+            }
+
+            core.info(`恢复任务已合并 PR #${prNumber}，SHA=${mergeSha}`);
+
+            try {
+              await github.rest.git.deleteRef({
+                owner,
+                repo,
+                ref: `heads/${pr.head.ref}`
+              });
+            } catch (error) {
+              core.warning(`删除分支失败，不影响发布：${error.message}`);
+            }
+
+            await github.rest.actions.createWorkflowDispatch({
+              owner,
+              repo,
+              workflow_id: 'pages.yml',
+              ref: 'main'
+            });
+            core.info('已启动 Deploy GitHub Pages。');
