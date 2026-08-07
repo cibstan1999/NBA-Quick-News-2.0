@@ -47,3 +47,33 @@
   - 素材指纹：336398b4ded6abdb
   - 决定：REJECT
   - 原因：内容主要为交易完成一个月后的发布会感受和赢球表态，没有合同、交易筹码、伤病、阵容或事件阶段的新进展，属于既有交易后的评论型延伸。
+
+## 2026-08-07 11:01 +0800
+
+- 来源：Yahoo Sports NBA
+  - 标题：Knicks assistant won’t return to team after three seasons: ‘Best years of my life’
+  - 链接：https://sports.yahoo.com/articles/knicks-assistant-won-t-return-214246960.html
+  - 素材指纹：5e74c3c100aa7f40
+  - 决定：REJECT
+  - 原因：球队视频分析与球员发展部门的后排助教合同到期离队，对一线教练组、阵容和球队决策没有实质影响，新闻价值不足。
+
+- 来源：Yahoo Sports NBA
+  - 标题：Peyton Watson rumour round-up
+  - 链接：https://sports.yahoo.com/articles/peyton-watson-rumour-round-000118785.html
+  - 素材指纹：a0a064854b1a5f58
+  - 决定：REJECT
+  - 原因：与 2026-08-07 06:02 已发布的“掘金与多队讨论佩顿·沃特森先签后换”属于同一事件；新增内容仍是谈判背景和评论，没有协议、具体报价或确定交易筹码等实质升级。
+
+- 来源：Yahoo Sports NBA
+  - 标题：Takeaways from Jaylen Brown’s introductory press conference
+  - 链接：https://sports.yahoo.com/articles/takeaways-jaylen-brown-introductory-press-001447193.html
+  - 素材指纹：71fb1f9c3e500d5e
+  - 决定：REJECT
+  - 原因：与本日已退稿的杰伦·布朗加盟 76 人后发布会内容属于同一评论型延伸，没有新增合同、交易、伤病或阵容决定。
+
+- 来源：Hoops Rumors
+  - 标题：Latest On Peyton Watson
+  - 链接：https://www.hoopsrumors.com/2026/08/latest-on-peyton-watson-2.html
+  - 素材指纹：c0a788761832b8d5
+  - 决定：REJECT
+  - 原因：与 2026-08-07 06:02 已发布的佩顿·沃特森先签后换谈判完全同事件；雄鹿不愿送出首轮签、可能涉及球员的讨论仍属推测，未形成确定筹码或事件阶段升级。
