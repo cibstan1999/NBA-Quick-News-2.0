@@ -18,3 +18,7 @@
 ## 02:58 编辑轮次
 
 - `Knicks draft pick Jack Kayil makes decision on NBA future` — REJECT：与 2026-08-07 已发布的“杰克·凯伊尔与 ALBA 柏林签下五年合同、尼克斯保留其 NBA 权利”事件重复；本素材仅更换来源并补充背景，没有协议阶段、合同年限、球队权利或其他实质事实升级。
+
+## 03:02 编辑轮次
+
+- 本轮无拒稿。
