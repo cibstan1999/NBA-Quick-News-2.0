@@ -77,3 +77,33 @@
   - 素材指纹：c0a788761832b8d5
   - 决定：REJECT
   - 原因：与 2026-08-07 06:02 已发布的佩顿·沃特森先签后换谈判完全同事件；雄鹿不愿送出首轮签、可能涉及球员的讨论仍属推测，未形成确定筹码或事件阶段升级。
+
+## 2026-08-07 12:02 +0800
+
+- 来源：Yahoo Sports NBA
+  - 标题：Jaylen Brown ‘threw my phone across the room’ when he found out he was traded to 76ers
+  - 链接：https://sports.yahoo.com/articles/jaylen-brown-threw-phone-across-224826728.html
+  - 素材指纹：9469ac81dc831f39
+  - 决定：REJECT
+  - 原因：与本日已有杰伦·布朗加盟 76 人发布会素材属于同一评论型延伸，没有交易、合同、伤病或阵容的新进展。
+
+- 来源：Yahoo Sports NBA
+  - 标题：Takeaways on Jaylen Brown's introductory Sixers press conference
+  - 链接：https://sports.yahoo.com/articles/takeaways-jaylen-browns-introductory-sixers-232004713.html
+  - 素材指纹：b43e71ffe7ac6869
+  - 决定：REJECT
+  - 原因：与同批次及当日已有杰伦·布朗发布会素材重复，新增内容仍为个人感受和赢球表态，不构成事件阶段升级。
+
+- 来源：Hoops Rumors
+  - 标题：Warriors Notes: Dunleavy, Offseason, Curry, Richard
+  - 链接：https://www.hoopsrumors.com/2026/08/warriors-notes-dunleavy-offseason-curry-richard.html
+  - 素材指纹：cff91856e31d5b5d
+  - 决定：REJECT
+  - 原因：以休赛期复盘、旧表态和球员评论为主，没有新的确定交易、签约、伤病或管理层决定。
+
+- 来源：Yahoo Sports NBA
+  - 标题：The Spurs need Luke Kornet to develop a floater to be a playoff contributor
+  - 链接：https://sports.yahoo.com/articles/spurs-luke-kornet-develop-floater-012513802.html
+  - 素材指纹：797bcbc710d8327e
+  - 决定：REJECT
+  - 原因：属于战术观点与球员发展建议，没有新的事实性事件或球队决定，新闻价值不足。
