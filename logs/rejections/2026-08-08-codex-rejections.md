@@ -22,3 +22,10 @@
 ## 03:02 编辑轮次
 
 - 本轮无拒稿。
+
+## 06:06 编辑轮次
+
+- `How much would Brandin Podziemski’s contract extension cost the Warriors?` — REJECT：核心为潜在续约年薪区间与球队理想价位，没有正式报价、明确谈判进展或协议，属于推测性合同讨论。
+- `Everyone is waiting on Jonathan Kuminga to make a decision` — REJECT：与2026-08-04已发布的湖人追逐库明加传闻属于同一持续事件，本轮仅确认谈判仍停滞，没有协议、金额或交易筹码的实质升级。
+- `Jack Kayil headed overseas; Tyler Nickel expected to go pro` — REJECT：Jack Kayil留在ALBA柏林的核心事件已于2026-08-07发布；Tyler Nickel仅为预计进入职业赛场及可能双向合同的推测，不足以独立成稿。
+- `Former NBA star Monta Ellis named GM of Alcorn State men's basketball` — REJECT：事件主体是NCAA项目管理职位，不直接影响NBA球队、现役球员合同/阵容或联盟事务。
