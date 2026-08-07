@@ -116,3 +116,12 @@
   - 素材指纹：3e5d9ac6089a4fd2
   - 决定：REJECT
   - 原因：与 2026-08-07 13:07 已发布的“莱昂纳德被曝与快船球馆大屏供应商存在数百万美元赞助协议”属于同一事件；RealGM 未提供新的协议阶段、金额、调查结论或其他实质更新。
+
+## 2026-08-07 16:00 +0800
+
+- 来源：Yahoo Sports NBA
+  - 标题：Kawhi Leonard had multimillion deal with Clippers scoreboard-maker
+  - 链接：https://sports.yahoo.com/articles/kawhi-leonard-had-multimillion-deal-030937853.html
+  - 素材指纹：8641a95bac441ec0
+  - 决定：REJECT
+  - 原因：与 2026-08-07 13:07 已发布的“莱昂纳德被曝与快船球馆大屏供应商存在数百万美元赞助协议”属于同一事件；本素材仍围绕 Daktronics 数百万美元赞助与规避工资帽指控，没有新的协议阶段、金额、联盟调查结论或其他实质更新。
