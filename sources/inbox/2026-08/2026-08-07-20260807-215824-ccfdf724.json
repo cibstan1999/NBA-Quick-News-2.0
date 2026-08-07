@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260807-215824",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-07T21:58:24+08:00",
+  "fetched_at": "2026-08-07 21:58:24",
+  "timezone": "Asia/Shanghai",
+  "item_count": 2,
+  "sources": [
+    "Yahoo Sports NBA"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Knicks Notes: Jack Kayil to play overseas this season; what's next for Tyler Nickel",
+      "link": "https://sports.yahoo.com/articles/knicks-notes-jack-kayil-play-130000191.html",
+      "published_at": "Fri, 07 Aug 2026 13:00:00 +0000",
+      "timestamp": 1786107600000,
+      "guid": "27709d0f-7ece-3b77-a0cf-8599bed484e7",
+      "fingerprint": "7f41d7d59f5fa30a",
+      "content": "Knicks second-round pick Jack Kayil announced on Friday that he will play this coming season overseas rather than sign an NBA contract to join New York.\n\n\"The NBA remains my big dream – and Alba is just the right place for me to continue on this path,\" said Kayil, selected 39th overall by the Knicks in the 2026 NBA Draft.\n\nThe 20-year-old guard showed promise during the NBA Summer League. But it was always going to be difficult for New York to sign Kayil to a standard NBA contract while also remaining under the second apron in team salary. Kayil was eligible for a two-way contract, but he would have had to pay the buyout of his contract with Alba Berlin and also would have had to accept a significant pay cut to sign the two-way contract.\n\nThe plan heading into free agency was that Kayil would remain overseas this season to develop his game. The benefit of a large playing role overseas – and the Knicks’ financial limitations – outweighed the opportunity to be in the NBA this season.\n\nWith Kayil heading overseas, the Knicks have just 13 players under contract. They also have three spots for two-way players.\n\nNew York’s other second round pick – Tyler Nickel – also remains unsigned. There are reports that Nickel is considering going back to college, but league sources say he is all in on starting his pro career. Nickel is eligible to return to college in 2026-27 thanks to a recent ruling allowing players in Nickel’s class to return to school.\n\nNickel could presumably make much more money in NIL deals than he would make on a two-way contract. The Knicks could sign Nickel to a standard NBA deal via the second-round exception. But if they signed Nickel to a standard deal via the second-round exception, they would not have enough money to sign a third center on a veteran’s minimum contract.\n\nThe Knicks targeted Mavs center Moussa Cisse for this role, but the Mavs matched New York’s offer to Cisse in restricted free agency. Prior to signing Cisse to an offer sheet, New York pursued multiple trades for centers.\n\nIn recent weeks, the Knicks have also been in touch with several free agent centers who could fill the third center role. Logic tells you that if they wanted to sign one of these centers on a guaranteed one-year deal, the Knicks would have done so already.\n\nThe Knicks have enough room to add eight players on training camp contracts. If they don’t trade for a third center or sign a center who gets unexpectedly waived due to a roster crunch, you can expect the Knicks to bring in multiple veteran centers to compete for the third center spot."
+    },
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Report alleges Kawhi Leonard had second undisclosed partnership",
+      "link": "https://sports.yahoo.com/articles/report-alleges-kawhi-leonard-had-133750691.html",
+      "published_at": "Fri, 07 Aug 2026 13:37:50 +0000",
+      "timestamp": 1786109870000,
+      "guid": "bee6bfc9-e280-353c-84c4-d54a7fdb99f3",
+      "fingerprint": "72d7711b523d388c",
+      "content": "Kawhi Leonard and the Los Angeles Clippers are still under investigation for an alleged “no-show” agreement with a now defunct company, Aspiration, to funnel extra compensation to the player in a deal viewed as salary cap circumvention.\n\nBut another company may have had similar, previously undisclosed dealings with Leonard, according to a report by the podcast “Pablo Torre Finds Out.”\n\nDaktronics, the company that designed the Clippers' video board inside the Intuit Dome where they play home games, reportedly had an agreement and partnership with Leonard.\n\nTorre's podcast cites multiple anonymous sources inside the Clippers and Intuit Dome project. A person who was previously under contract with the Intuit Dome project alleged the sponsorship \"was 1,000% a way to circumvent the salary cap. It was funneling money from the Clippers through Daktronics back to Kawhi.\"\n\nUSA TODAY reached out to the Clippers for comment on Thursday evening.\n\nThe podcast asked Daktronics to confirm if Leonard had an endorsement deal, but the company directed them to a spokesperson for a crisis management firm who said, “My understanding is Daktronics doesn’t have a deal with Kawhi right now.” \n\nAsked for clarification, the spokesman said “I don’t know what the company wants to say, or can say, given the Wachtell investigation and all that,” referencing the investigation into the alleged Aspiration deal.\n\nLeonard’s seven-year tenure with the Clippers appeared to be over this summer as he was going to be traded to the Toronto Raptors on June 30.\n\nThat trade has since been halted because of the investigation that involves Leonard, Clippers owner Steve Ballmer and Leonard's uncle/advisor Dennis Robertson. The Clippers would’ve received forward Brandon Ingram, guard Gradey Dick, two unprotected first-round picks (2031, 2033), two second-round picks (2030, 2033) and a 2027 first-round swap in the trade. \n\nNBA commissioner Adam Silver previously told reporters in mid-July that his timeline for the investigation to conclude would be by the end of the summer.\n\n“As I've said previously, we all have an interest in wrapping this up,” Silver said. “... I am hopeful it will wrap up this summer and that will continue to be the goal here.\"\n\nThe investigation is being run by an external law firm but the findings will be presented to Silver, who will then decide on any potential discipline.\n\nLawrence Frank, the Clippers' president of basketball operations, provided some of the last public comments from the organization regarding the investigation on June 23.\n\n“I can’t comment on the specifics of the investigation, but what I can say is we did not do what we are accused of doing,” Frank said. “The investigation has had no impact on how we go about our business. We just continue to go about our business as normal.”\n\nThis article originally appeared on USA TODAY: Report alleges Kawhi Leonard had second undisclosed partnership"
+    }
+  ]
+}
