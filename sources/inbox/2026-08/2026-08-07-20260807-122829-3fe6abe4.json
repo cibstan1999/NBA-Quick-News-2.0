@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260807-122829",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-07T12:28:29+08:00",
+  "fetched_at": "2026-08-07 12:28:29",
+  "timezone": "Asia/Shanghai",
+  "item_count": 1,
+  "sources": [
+    "Yahoo Sports NBA"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Kawhi Leonard allegedly had another multimillion-dollar 'sponsorship' deal with Clippers' scoreboard manufacturer, per report",
+      "link": "https://sports.yahoo.com/nba/article/kawhi-leonard-allegedly-had-another-multimillion-dollar-sponsorship-deal-with-clippers-scoreboard-manufacturer-per-report-035505662.html",
+      "published_at": "Fri, 07 Aug 2026 03:55:05 +0000",
+      "timestamp": 1786074905000,
+      "guid": "098713f4-02eb-4a15-b376-e4fb5d0eaa1e",
+      "fingerprint": "2bd249cca10640cc",
+      "content": "Kawhi Leonard and the Los Angeles Clippers have been facing scrutiny for nearly a year over an alleged no-show sponsorship deal with now-defunct sustainability company Aspiration that paid the star millions for no visible work, in an alleged bid to circumvent the NBA salary cap.\n\nAccording to the latest report from \"Pablo Torre Finds Out,\" Aspiration allegedly wasn't the only company doing something like that.\n\nScoreboard manufacturer Daktronics, which built the $100 million video board at the Clippers' Intuit Dome, hired Leonard to a multimillion sponsorship deal for which he has done no work that host Pablo Torre and his staff could find.\n\nTorre cites two sources, one as a \"high-level source under contract for Intuit Dome\" and the other as a \"former high-level Clippers official.\" The former provided a number of quotes alleging that Daktronics hired Leonard to a bogus contract, claiming that people who worked on the Intuit Dome were \"openly\" joking about the deal as being \"1,000% a way to circumvent the salary cap.\"\n\nSomething else said:\n\n\"People at Daktronics, people within the Clippers organization themselves, they had told me about this multimillion deal with Kawhi and Daktronics. They are not a company that you would see a celebrity endorser for. It wasn't coming out of their end, that the Clippers were technically kind of funding it, and that it was funneling money from the Clippers to Daktronics back to Kawhi.\"\n\nThe second source reportedly confirmed Leonard had a deal with Daktronics worth multiple millions of dollars.\n\nAs opposed to Aspiration, which had lower-paying sponsorship deals with names like Robert Downey Jr. and Leonardo DiCaprio, Daktronics reportedly is not known for doing celebrity sponsorship deals. Torre quotes one person identified as a former Daktronics employee who says the company didn't have any sort of deal like that in the 20-plus years they were there.\n\nDaktronics is a business-to-business company that does not sell products to the average consumer, limiting the impact of celebrity endorsement deals like this one with Leonard, even if he had done anything.\n\nTorre and co-reporter Sam Koppelman of Hunterbrook Media also point to Daktronics being in financial distress in 2023, around the time they were working on the Intuit Dome video board. Daktronics also reportedly used a crisis communications firm that has done work for former Clippers co-owner Shelly Sterling, who oversaw the sale of the team to current owner Steve Ballmer, as well as an LLC owned by Ballmer.\n\nAfter Torre first broke the Aspiration story, the NBA has been investigating Leonard, Ballmer and the Clippers through independent law firm Wachtell Lipton. That investigation has already caused a trade sending Leonard from the Clippers to the Toronto Raptors to be paused, after the teams were informed the Raptors would be taking on the risk of any sanctions against Leonard or his contract.\n\nThe Clippers have denied any wrongdoing throughout this saga.\n\nNBA\n\n...[正文超出 3000 字符，已截断]"
+    }
+  ]
+}
