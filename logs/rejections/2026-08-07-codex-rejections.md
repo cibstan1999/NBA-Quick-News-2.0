@@ -107,3 +107,12 @@
   - 素材指纹：797bcbc710d8327e
   - 决定：REJECT
   - 原因：属于战术观点与球员发展建议，没有新的事实性事件或球队决定，新闻价值不足。
+
+## 2026-08-07 15:00 +0800
+
+- 来源：RealGM NBA
+  - 标题：Kawhi Leonard Allegedly Had Undisclosed Sponsorship Deal With Daktronics
+  - 链接：https://basketball.realgm.com/wiretap/286930/Kawhi-Leonard-Allegedly-Had-Undisclosed-Sponsorship-Deal-With-Daktronics
+  - 素材指纹：3e5d9ac6089a4fd2
+  - 决定：REJECT
+  - 原因：与 2026-08-07 13:07 已发布的“莱昂纳德被曝与快船球馆大屏供应商存在数百万美元赞助协议”属于同一事件；RealGM 未提供新的协议阶段、金额、调查结论或其他实质更新。
