@@ -38,3 +38,12 @@
   - 素材指纹：034c20ce3339a312
   - 决定：REJECT
   - 原因：球员播客中的个人重排选秀观点，没有合同、交易、伤病、阵容或联盟规则等实质新进展，属于低价值评论性内容。
+
+## 2026-08-07 09:00 +0800
+
+- 来源：Hoops Rumors
+  - 标题：Jaylen Brown Ready To ‘Sacrifice,’ Win With Sixers
+  - 链接：https://www.hoopsrumors.com/2026/08/jaylen-brown-ready-to-sacrifice-win-with-sixers.html
+  - 素材指纹：336398b4ded6abdb
+  - 决定：REJECT
+  - 原因：内容主要为交易完成一个月后的发布会感受和赢球表态，没有合同、交易筹码、伤病、阵容或事件阶段的新进展，属于既有交易后的评论型延伸。
