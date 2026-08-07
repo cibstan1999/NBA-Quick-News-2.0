@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260808-042842",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-08T04:28:42+08:00",
+  "fetched_at": "2026-08-08 04:28:42",
+  "timezone": "Asia/Shanghai",
+  "item_count": 1,
+  "sources": [
+    "Hoops Rumors"
+  ],
+  "items": [
+    {
+      "source": "Hoops Rumors",
+      "title": "Free Agent Rumors: Duren, Watson, Mathurin, Knicks",
+      "link": "https://www.hoopsrumors.com/2026/08/free-agent-rumors-duren-watson-mathurin-knicks.html",
+      "published_at": "Fri, 07 Aug 2026 20:01:41 +0000",
+      "timestamp": 1786132901000,
+      "guid": "https://www.hoopsrumors.com/?p=486911",
+      "fingerprint": "39bf868808d80bda",
+      "content": "Accepting his $9.6MM qualifying offer is a fallback option for Jalen Duren if he doesn&#8217;t get a long-term contract offer he likes from the Pistons, but the consensus around the NBA is that it would be a mistake for the 22-year-old to go that route, according to Brett Siegel of ClutchPoints.\n\n&#8220;You can&#8217;t take the qualifying offer coming off an All-Star season,&#8221; one Western Conference executive told Siegel. &#8220;It&#8217;s almost like a death sentence. Nobody will view you close to the player you think you are again. Giving up a nine-figure deal for the qualifying offer and risking getting hurt with no long-term security, especially as a center in today&#8217;s league, would be extremely reckless and foolish.&#8221;\n\nWith the Pistons hoping to pay Duren in the neighborhood of $30-35MM per year and the All-NBA third-teamer seeking a maximum-salary deal, there&#8217;s still a sizable gap between the two sides, Siegel writes. Bridging that gap remains a possibility, but Siegel hears from sources that talks between Duren and the Pistons are paused for now and are expected to resume later in August, with an expectation that they could drag into September.\n\nHere are a few more notes and rumors on NBA free agency:\n\nThe Hawks have &#8220;backed off significantly&#8221; in the Peyton Watson sweepstakes due to a reluctance to meet the asking prices of both Watson and the Nuggets, according to Siegel, who says there&#8217;s also widespread skepticism about the Cavaliers landing the restricted free agent forward. The Clippers and Bucks are considered more viable sign-and-trade suitors for Watson, with Siegel reporting that L.A. has conveyed a willingness to part with defensive-minded wing Derrick Jones Jr. in a potential deal. However, due to their position above the second apron, the Nuggets wouldn&#8217;t be permitted to take back Jones using Watson&#8217;s outgoing salary. Siegel adds that Watson&#8217;s camp has felt &#8220;disrespected&#8221; by the Nuggets&#8217; offers to date and may prefer a sign-and-trade.\nThe Pistons inquired on Bennedict Mathurin last month but are no longer pursuing the Clippers&#8216; restricted free agent wing, sources tell ClutchPoints. Siegel suggests that L.A. would likely be willing to accept Isaac Okoro and second-round draft capital from the Bulls for Mathurin, though it&#8217;s unclear if Chicago would put that sort of offer on the table.\nThe Knicks have been in contact with several free agents as they consider options to fill their third center spot, per Ian Begley of SNY.tv. However, Begley points out that if they were prepared to give a guaranteed deal to any of those players, it would likely already be done. That&#8217;s why &#8211; unless the Knicks make a trade for a third center or someone unexpected gets waived &#8211; Begley anticipates the Knicks will bring in multiple big men on non-guaranteed contracts to compete for that role."
+    }
+  ]
+}
