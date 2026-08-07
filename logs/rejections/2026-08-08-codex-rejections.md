@@ -29,3 +29,7 @@
 - `Everyone is waiting on Jonathan Kuminga to make a decision` — REJECT：与2026-08-04已发布的湖人追逐库明加传闻属于同一持续事件，本轮仅确认谈判仍停滞，没有协议、金额或交易筹码的实质升级。
 - `Jack Kayil headed overseas; Tyler Nickel expected to go pro` — REJECT：Jack Kayil留在ALBA柏林的核心事件已于2026-08-07发布；Tyler Nickel仅为预计进入职业赛场及可能双向合同的推测，不足以独立成稿。
 - `Former NBA star Monta Ellis named GM of Alcorn State men's basketball` — REJECT：事件主体是NCAA项目管理职位，不直接影响NBA球队、现役球员合同/阵容或联盟事务。
+
+## 07:05 编辑轮次
+
+- `Boston Celtics Daily Links 8/7/26` — REJECT：日更链接汇总页，混合大量既有报道、评论与预测内容，缺少一个可以独立核验并发布的新 NBA 事件；按编辑政策拒绝链接汇总和低价值聚合内容。
