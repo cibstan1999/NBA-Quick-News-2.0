@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260808-072823",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-08T07:28:23+08:00",
+  "fetched_at": "2026-08-08 07:28:23",
+  "timezone": "Asia/Shanghai",
+  "item_count": 3,
+  "sources": [
+    "Yahoo Sports NBA"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "San Antonio signs Taelon Peter to training camp deal",
+      "link": "https://sports.yahoo.com/articles/san-antonio-signs-taelon-peter-205209898.html",
+      "published_at": "Fri, 07 Aug 2026 20:52:09 +0000",
+      "timestamp": 1786135929000,
+      "guid": "c63fd2c9-ed46-37d0-a647-68444eee7fc2",
+      "fingerprint": "b118f0ab4581cd95",
+      "content": "INDIANAPOLIS, INDIANA - APRIL 12: Taelon Peter #4 of the Indiana Pacers dribbles during the game against the Detroit Pistons at Gainbridge Fieldhouse on April 12, 2026 in Indianapolis, Indiana. NOTE TO USER: User expressly acknowledges and agrees that, by downloading and or using this photograph, User is consenting to the terms and conditions of the Getty Images License Agreement. (Photo by Michael Hickey/Getty Images) | Getty Images\tThe San Antonio Spurs are filling out their roster for training camp. Today, the Spurs announced they’ve signed former Indiana Pacer Taelon Peter to an Exhibit-10 contract, meaning he’ll join the Spurs for training camp but isn’t a guarantee to be on the regular-season roster. \n\nPeter played in 38 games for the Pacers last season, averaging 12.6 minutes, 4.5 points, 1.6 rebounds, and 1.1 assists, while shooting 38% from the field and 32.8% from three. Peter is a 6-foot-3 combo guard from Liberty University who was drafted 54th overall in the 2025 draft. While he hasn’t found his three-point stroke in the NBA so far, he was a 45.3% three-point shooter during his senior season at Liberty. \n\nThe second-year guard played well in the NBA Summer League just a month ago, averaging 9.5 points on 57.1% shooting from the field, according to RealGM. His play there may be why San Antonio decided to extend Peter a training camp invite.\n\nHe will have stiff competition for an NBA deal with the Spurs. San Antonio has already filled its two-way roster spots with second-round picks Ja’Kobi Gillespie and Maliq Brown, and returning two-way player David Jones-Garcia. Even with an open 15th roster spot, Peter will likely need to beat out one of those three players to make the team. \n\nWith the Peter signing, San Antonio has 18 players on its training camp roster. The team can carry 21 players during training camp but must cut the roster down to 18 players when the regular season starts. Training camp begins on September 29th."
+    },
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "NBA 2K got Devin Booker completely wrong",
+      "link": "https://sports.yahoo.com/articles/nba-2k-got-devin-booker-210000838.html",
+      "published_at": "Fri, 07 Aug 2026 21:00:00 +0000",
+      "timestamp": 1786136400000,
+      "guid": "c65582e4-5be7-3f5d-9b9f-d127ec970bd6",
+      "fingerprint": "dfd37929b108c69a",
+      "content": "It’s NBA 2K season, which means we have officially reached that wonderful part of the NBA calendar where grown adults argue about numbers assigned to digital versions of basketball players. NBA 2K27 is set to release worldwide on September 4, with the deluxe and ultra editions opening the doors a little earlier on August 28. And as we creep closer to release day, 2K has begun pulling back the curtain on player ratings.\n\nTypically, this is where I’d make the case that while these ratings mean absolutely nothing in the grand scheme of basketball, they still provide an interesting window into perception. How does 2K think a team will function? How do they view certain players? Which skills do they value? Which ones have they apparently watched through a dirty windshield while driving 80 miles per hour through the desert?\n\nMake no mistake about it, the players care. Those little numbers next to specific aspects of their game become locker-room ammunition. They get discussed during shootarounds. They get screenshotted. They get sent to group chats.\n\nIf you’re an NBA player and 2K gives you a 48 free-throw rating, your teammates are going to find out about it, and you’re going to hear about it. Does anybody on the Phoenix Suns have a 48 free-throw rating? Oh yeah. Ryan Dunn. Sorry, Ryan.\n\nAnyway, I’m not making my usual case for the importance of 2K ratings this year. I can’t. The entire operation has lost my confidence. Burn the spreadsheets and fire the algorithm into the sun. Somebody clearly left the computer running overnight and came back to find that it had started hallucinating. Whatever collection of numbers, formulas, algorithms, statistics, caffeine, and black magic 2K uses to determine these ratings produced one unforgivable result.\n\nDevin Booker is not among the 10 best midrange shooters in NBA 2K27.\n\nIntroducing the Chairmen of the Middy Committee 😎\n\nThese are your best Mid Range shot artists in NBA 2K27 pic.twitter.com/RsyySl551e\n\n— NBA 2K (@NBA2K) August 6, 2026It gets worse. They gave him an 86. An 86! At that point, we are no longer dealing with reasonable basketball analysis. We have entered the realm of statistical malpractice. This is an egregiously narrow view of what Devin Booker does from the midrange, one that immediately calls the credibility of the entire exercise into question.\n\nTherefore, I have reached the only rational conclusion available. None of these ratings can be trusted.\n\nDoes it sound like I’m making much ado about nothing? Ultimately, the answer is yes. I fully understand that we are arguing about numbers attached to digital basketball players in a video game that hasn’t even been released yet. Still, when you look at the ratings designated for Devin Booker, they’re ridiculous. It’s as if Visual Concepts, the creator of NBA 2K, has no idea how basketball actually occurs on a basketball court. Which feels like a fairly significant problem when your primary business is creating a basketball video game.\n\nIf we’re a\n\n...[正文超出 3000 字符，已截断]"
+    },
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Cavs Reacts: Fans vote on favorite trade target",
+      "link": "https://sports.yahoo.com/articles/cavs-reacts-fans-vote-favorite-230505049.html",
+      "published_at": "Fri, 07 Aug 2026 23:05:05 +0000",
+      "timestamp": 1786143905000,
+      "guid": "42c11fec-4a87-3b85-b356-203ee5060f99",
+      "fingerprint": "b1f00c2dc6792848",
+      "content": "HOUSTON, TEXAS - NOVEMBER 21: Peyton Watson #8 of the Denver Nuggets looks on during the game against the Houston Rockets at Toyota Center on November 21, 2025 in Houston, Texas. (Photo by Kenneth Richmond/Getty Images) | Getty Images\tWelcome to SB Nation Reacts, a survey of fans across the NBA. Throughout the year we ask questions of the most plugged-in Cavs fans and fans across the country. Sign up here to participate in the weekly emailed surveys.\n\nThe Cleveland Cavaliers are in the hunt for two different wings, making themselves known as potential suitors for both Atlanta’s Jonathan Kuminga and Denver’s Peyton Watson. Earlier this week, we asked you to vote on which 23-year-old forward you would want to see in Cleveland the most. \n\nWatson comes in as the heavy favorite, pulling more than 85% of our vote. Kuminga grabs just 14%. \n\nI’d have to say I agree with the results. \n\nWatson had a career-best year last season, improving his efficiency and becoming a genuine threat from downtown. He’s got the raw potential of a 3-and-D wing who has taken the necessary steps forward to make that potential a tangible reality. \n\nKuminga, on the other hand, still has more to prove. He hasn’t been a good three-point shooter at any point in his career so far. And he hasn’t fully fit in with either team he’s been on to this point. The Golden State Warriors didn’t want to play him, and the Atlanta Hawks don’t want to pay him. Maybe both of those franchises are making a mistake by undervaluing him. Either way, it’s on Kuminga to change the narrative. \n\nThe Cavs remain active in pursuing both Kuminga and Watson. The Nuggets are looking to avoid the second apron, making it more difficult for Cleveland to acquire him in a trade. Kuminga, on the other hand, is likely more available. \n\nEither wing would fit in Cleveland. The Cavs have needed athleticism and length at small forward for years. Acquiring one of them would help fill that need and move them up from 10th on FanDuel for championship odds. \n\nIn order to vote in our next poll, all you have to do is make a free account on Fear the Sword and wait for our next react survey to drop. You can find it in our feed, or right here in our posts."
+    }
+  ]
+}
