@@ -148,3 +148,33 @@
   - 素材指纹：59137c3bf8294dde
   - 决定：REJECT
   - 原因：正文为 Cleveland Browns 训练营和外接手 Denzel Boston 内容，属于 NFL，超出 NBA 新闻边界。
+
+## 2026-08-07 22:58 +0800
+
+- 来源：Yahoo Sports NBA
+  - 标题：LeBron and the 76ers are showing the Raptors how to use Scottie Barnes
+  - 链接：https://sports.yahoo.com/articles/lebron-76ers-showing-raptors-scottie-120000051.html
+  - 素材指纹：c7f5375641ae5a2e
+  - 决定：REJECT
+  - 原因：核心为作者关于猛龙如何使用 Scottie Barnes 的战术观点与比较，没有新的球队决定、交易、签约、伤病或阵容事实。
+
+- 来源：RealGM NBA
+  - 标题：Bucks Hesitant To Offer First Round Pick In Trade For Peyton Watson
+  - 链接：https://basketball.realgm.com/wiretap/286932/Bucks-Hesitant-To-Offer-First-Round-Pick-In-Trade-For-Peyton-Watson
+  - 素材指纹：1ded50a42948864c
+  - 决定：REJECT
+  - 原因：与 2026-08-06 已发布的佩顿·沃特森先签后换谈判及 2026-08-07 既有退稿属于同一事件；雄鹿不愿送首轮签仍是谈判立场，没有达成协议或确定交易筹码。
+
+- 来源：RealGM NBA
+  - 标题：Knicks Draftee Jack Kayil Signs With ALBA Berlin
+  - 链接：https://basketball.realgm.com/wiretap/286933/Knicks-Draftee-Jack-Kayil-Signs-With-ALBA-Berlin
+  - 素材指纹：aa3dbc1abd365c7e
+  - 决定：REJECT
+  - 原因：与本日已发布的 Jack Kayil 与 ALBA Berlin 五年合同属于同一事件，没有新的合同金额、NBA out 条款确认或其他实质更新。
+
+- 来源：Yahoo Sports NBA
+  - 标题：James Harden gun charge dismissed following June arrest
+  - 链接：https://sports.yahoo.com/nba/article/james-harden-gun-charge-dismissed-following-june-arrest-141836745.html
+  - 素材指纹：7578f9a88240430f
+  - 决定：REJECT
+  - 原因：同一“哈登休斯敦持枪案被撤销”事件已在本日 PR #36 发布，本素材没有新的法律结果或联盟纪律进展。
