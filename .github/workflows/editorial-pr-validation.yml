@@ -83,10 +83,13 @@ jobs:
               return;
             }
 
+            const trustedBranch =
+              pr.head.ref.startsWith('codex/inbox-') ||
+              pr.head.ref.startsWith('agent/');
             const trusted =
               pr.base.ref === 'main' &&
               pr.head.repo?.full_name === `${owner}/${repo}` &&
-              pr.head.ref.startsWith('codex/inbox-') &&
+              trustedBranch &&
               pr.user?.login === owner;
 
             if (!trusted) {
@@ -115,18 +118,24 @@ jobs:
           ref: ${{ steps.pr.outputs.head_sha }}
           fetch-depth: 0
 
+      - name: Setup Node.js
+        if: ${{ steps.pr.outputs.skip != 'true' }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Test validator changes from trusted maintenance PR
+        if: >-
+          ${{ steps.pr.outputs.skip != 'true' &&
+              startsWith(steps.pr.outputs.head_ref, 'agent/') }}
+        run: node --test scripts/validate-editorial-pr.test.cjs
+
       - name: Load trusted validators from main
         if: ${{ steps.pr.outputs.skip != 'true' }}
         shell: bash
         run: |
           git show origin/main:scripts/validate-editorial-pr.js > scripts/validate-editorial-pr.js
           git show origin/main:scripts/editorial-validate.js > scripts/editorial-validate.js
-
-      - name: Setup Node.js
-        if: ${{ steps.pr.outputs.skip != 'true' }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
 
       - name: Validate editorial changes
         if: ${{ steps.pr.outputs.skip != 'true' }}
