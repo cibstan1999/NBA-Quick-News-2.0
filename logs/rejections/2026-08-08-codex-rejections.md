@@ -14,3 +14,7 @@
 - `Grading Mike Gansey’s first Free Agency` — REJECT：自由市场操作评分与评论稿，核心事实均为既有休赛期背景，没有独立新事件。
 - `Rookie intrigue draft with Sam Vecenie, lessons from Aces-Fever + Team USA roster breakdown` — REJECT：播客节目与主观新秀讨论为主，并混合大量 WNBA 内容，缺少可独立发布的新 NBA 事实事件。
 - `Judge Dismisses James Harden’s Misdemeanor Gun Charge` — REJECT：与最近 168 小时已发布的 James Harden 持枪案撤诉事件重复；仓库运行日志已记录 PR #36 发布相同撤诉结果，无实质新法律或联盟纪律进展。
+
+## 02:58 编辑轮次
+
+- `Knicks draft pick Jack Kayil makes decision on NBA future` — REJECT：与 2026-08-07 已发布的“杰克·凯伊尔与 ALBA 柏林签下五年合同、尼克斯保留其 NBA 权利”事件重复；本素材仅更换来源并补充背景，没有协议阶段、合同年限、球队权利或其他实质事实升级。
