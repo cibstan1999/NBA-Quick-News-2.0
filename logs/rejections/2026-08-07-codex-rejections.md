@@ -66,7 +66,7 @@
 
 - 来源：Yahoo Sports NBA
   - 标题：Takeaways from Jaylen Brown’s introductory press conference
-  - 链接：https://sports.yahoo.com/articles/takeaways-jaylen-brown-introductory-press-001447193.html
+  - 链接：https://sports.yahoo.com/articles/takeaways-jaylen-brown-introductory-001447193.html
   - 素材指纹：71fb1f9c3e500d5e
   - 决定：REJECT
   - 原因：与本日已退稿的杰伦·布朗加盟 76 人后发布会内容属于同一评论型延伸，没有新增合同、交易、伤病或阵容决定。
@@ -125,3 +125,26 @@
   - 素材指纹：8641a95bac441ec0
   - 决定：REJECT
   - 原因：与 2026-08-07 13:07 已发布的“莱昂纳德被曝与快船球馆大屏供应商存在数百万美元赞助协议”属于同一事件；本素材仍围绕 Daktronics 数百万美元赞助与规避工资帽指控，没有新的协议阶段、金额、联盟调查结论或其他实质更新。
+
+## 2026-08-07 19:00 +0800
+
+- 来源：Yahoo Sports NBA
+  - 标题：CSR Weekend Warriors: 8/7-8/9
+  - 链接：https://sports.yahoo.com/articles/csr-weekend-warriors-8-7-100000929.html
+  - 素材指纹：389934f6bc4d85a3
+  - 决定：REJECT
+  - 原因：正文明确是 Panthers 球迷周末开放讨论串，属于 NFL/社区闲聊内容，不是 NBA 新闻。
+
+- 来源：Yahoo Sports NBA
+  - 标题：NBA power rankings after wild offseason moves: Where do LeBron's 76ers land?
+  - 链接：https://sports.yahoo.com/articles/nba-power-rankings-wild-offseason-100802341.html
+  - 素材指纹：fdbdb65e0c9f65a6
+  - 决定：REJECT
+  - 原因：属于休赛期实力榜与评论性排名汇总，核心是媒体排序与判断，不构成新的交易、签约、伤病、阵容或联盟规则事件。
+
+- 来源：Yahoo Sports NBA
+  - 标题：Browns training camp: Checking in on the Denzel Boston hype
+  - 链接：https://sports.yahoo.com/articles/browns-training-camp-checking-denzel-103002400.html
+  - 素材指纹：59137c3bf8294dde
+  - 决定：REJECT
+  - 原因：正文为 Cleveland Browns 训练营和外接手 Denzel Boston 内容，属于 NFL，超出 NBA 新闻边界。
