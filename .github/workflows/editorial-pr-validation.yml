@@ -83,10 +83,13 @@ jobs:
               return;
             }
 
+            const trustedBranch =
+              pr.head.ref.startsWith('codex/inbox-') ||
+              pr.head.ref.startsWith('agent/');
             const trusted =
               pr.base.ref === 'main' &&
               pr.head.repo?.full_name === `${owner}/${repo}` &&
-              pr.head.ref.startsWith('codex/inbox-') &&
+              trustedBranch &&
               pr.user?.login === owner;
 
             if (!trusted) {
