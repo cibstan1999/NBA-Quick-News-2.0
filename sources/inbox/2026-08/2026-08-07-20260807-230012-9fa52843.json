@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260807-230012",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-07T23:00:12+08:00",
+  "fetched_at": "2026-08-07 23:00:12",
+  "timezone": "Asia/Shanghai",
+  "item_count": 1,
+  "sources": [
+    "Hoops Rumors"
+  ],
+  "items": [
+    {
+      "source": "Hoops Rumors",
+      "title": "Garrison Mathews Joining Olimpia Milano",
+      "link": "https://www.hoopsrumors.com/2026/08/garrison-mathews-joining-olimpia-milano.html",
+      "published_at": "Fri, 07 Aug 2026 14:53:51 +0000",
+      "timestamp": 1786114431000,
+      "guid": "https://www.hoopsrumors.com/?p=486878",
+      "fingerprint": "35d2312e2169e518",
+      "content": "Free agent shooting guard Garrison Mathews is joining Olimpia Milano for the upcoming season, he confirmed to Charles Pulliam of The Williamson Herald.\n\nReporting last month indicated that Mathews had reached an agreement with the Italian club on a one-plus-one deal, but Olimpia Milano has yet to formally announce it. According to a report from La Gazzetta dello Sport (hat tip to Sportando), that announcement will likely come sometime after August 15, when Mathews arrives in Italy ahead of the team&#8217;s training camp. At that time, he&#8217;ll take a physical (which is considered a formality) and officially finalize his contract.\n\n&#8220;I’m excited about the opportunity,&#8221; Mathews told Pulliam this week. &#8220;I didn’t think I’d ever play (overseas), but I got a couple calls with some great offers that were too hard to pass up.&#8221;\n\nAfter going undrafted out of Lipscomb in 2019, the Tennessee native caught on with the Wizards as an undrafted free agent. He subsequently appeared in 329 total regular season games for Washington, Houston, Atlanta, and Indiana across seven seasons from 2019-25, averaging 6.4 points and 1.7 rebounds in 17.3 minutes per contest.\n\nMathews, whose most recent NBA stint came in the first half of the 2025/26 season on a two 10-day deals and a non-guaranteed contract with the Pacers, is valued most for his shooting ability. The 29-year-old has knocked down 38.2% of 3.9 three-point attempts per game over the course of his NBA career.\n\nAfter being waived by the Pacers in December, Mathews valued the opportunity to spend some time back home in the greater Nashville area, seeing family and &#8220;old friends.&#8221; However, he&#8217;s looking forward to resuming his career and suggested he hopes to play well enough in Europe to generate renewed interest from NBA teams.\n\n&#8220;My ultimate goal is to have a good year and then hopefully get an opportunity to come back to play,&#8221; he said."
+    }
+  ]
+}
