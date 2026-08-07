@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260807-085826",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-07T08:58:26+08:00",
+  "fetched_at": "2026-08-07 08:58:26",
+  "timezone": "Asia/Shanghai",
+  "item_count": 2,
+  "sources": [
+    "Yahoo Sports NBA",
+    "Hoops Rumors"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Kings reportedly not discussing Zach LaVine buyout after player option exercised",
+      "link": "https://sports.yahoo.com/articles/kings-reportedly-not-discussing-zach-173533625.html",
+      "published_at": "Thu, 06 Aug 2026 17:35:33 +0000",
+      "timestamp": 1786037733000,
+      "guid": "77836634-ebf8-30ad-beb7-e88cb502eab9",
+      "fingerprint": "2027038cb49851c3",
+      "content": "Kings reportedly not discussing Zach LaVine buyout after player option exercised originally appeared on NBC Sports Bay Area\n\nAfter exercising his $49 million player option for the 2026-27 NBA season, Zach LaVine is set to remain with the Kings.\n\nThough this summer appeared to signal the start of a rebuild in Sacramento, both LaVine and Domantas Sabonis remain on the roster. And that doesn’t appear to be changing anytime soon, at least in LaVine’s case.\n\nNBA insider Marc Stein reported this week the Kings aren’t looking to let go of LaVine, as they did recently to DeMar DeRozan.\n\n“One source close to the process told The Stein Line that the Kings are operating under the premise that LaVine will start the season as a King and added that “no buyout” is being discussed,” Stein wrote in his Substack on Monday.\n\nAs Sacramento seeks a transition to a new core centered around 2026 NBA Draft No. 7 overall pick Darius Acuff Jr., LaVine’s future with the Kings was a question mark entering the offseason. But after some unsuccessful trade discussions around Sabonis, both veterans seemingly will be back for the upcoming campaign.\n\nLike Sabonis, LaVine is coming off an underwhelming season in which he played just 39 games before undergoing season-ending finger surgery in February. The 31-year-old averaged 19.2 points per game — his lowest average since 2017-18 — as well as 2.8 rebounds and 2.3 assists on 47.9-percent shooting and 39.0 percent from deep. \n\nNow, LaVine will be expected to help mentor the Kings’ younger players as the organization looks to build for the future.\n\nDownload and follow The Deuce & Mo Podcast"
+    },
+    {
+      "source": "Hoops Rumors",
+      "title": "Jaylen Brown Ready To ‘Sacrifice,’ Win With Sixers",
+      "link": "https://www.hoopsrumors.com/2026/08/jaylen-brown-ready-to-sacrifice-win-with-sixers.html",
+      "published_at": "Fri, 07 Aug 2026 00:47:42 +0000",
+      "timestamp": 1786063662000,
+      "guid": "https://www.hoopsrumors.com/?p=486825",
+      "fingerprint": "336398b4ded6abdb",
+      "content": "A month after he was officially traded to a former division rival, star wing Jaylen Brown was formally introduced as a member of the Sixers at a Thursday press conference (YouTube link), writes Dan Gelston of The Associated Press.\n\nThe five-time All-Star said he tossed his phone across the room when he first learned he was being traded by the Celtics and admitted he&#8217;s still getting used to the idea of the major change after spending his first 10 seasons in Boston.\n\n&#8220;I’m still processing to some degree,&#8221; Brown said. &#8220;Just, the excitement of coming to a new city, a new place, new expectations, new energy. Then also leaving somewhere that you’ve been for a very, very long time.&#8221;\n\nBrown was reportedly included in the Celtics&#8217; trade offers for Giannis Antetokounmpo, who was ultimately dealt from Milwaukee to Miami. Rather than retaining Brown, Boston decided to move the 2024 Finals MVP.\n\nWhile Brown repeatedly said he was focused on the future rather than the past, he said the &#8220;whole process&#8221; leading up to the deal bothered him. He described the speculation and eventual trade as a &#8220;crazy transition,&#8221; according to Ramona Shelburne of ESPN, but noted it was part of the business and he&#8217;s ready to win in Philadelphia.\n\n&#8220;I think everybody knows how incredible the opportunity that we have, but we also got to put in the work,&#8221; Brown said. &#8220;So my focus is on that, putting in the work, earning the respect from the city, from the coaching staff, everything.&#8221;\n\nBrown, who was named to the All-NBA second team for the second time last season and finished sixth in MVP voting, acknowledged the team&#8217;s talent, but knows &#8220;sacrifice&#8221; will be required for the 76ers, whose projected starting lineup features Brown, Tyrese Maxey, VJ Edgecombe, LeBron James and Joel Embiid.\n\n&#8220;Obviously it&#8217;s a lot of guys with talent and egos. But to win, you got to be able to sacrifice, you got to be able to have trust and communicate,&#8221; Brown said, per Shelburne. &#8220;I want to come in transparent. I want to come in with my agenda on the table. Look, this is what I&#8217;m here to do. This is what I want to do. I want to win. And we kind of can figure out how to respectfully move around each other.\n\n&#8220;Being the first to the gym, being in a film room, I&#8217;m looking forward to learning from LeBron &#8212; just everything that he&#8217;s endured during his career on and off the floor. One of my favorite things to do is learn and can&#8217;t wait to just soak up as much information as I can and apply it to myself.&#8221;\n\nHere&#8217;s more from Brown&#8217;s presser:\n\nThere has been chatter about how several high-usage players will coexist in the starting lineup. Brown said he&#8217;s not worried about that, writes Grant Afseth of Ballislife.com. &#8220;My focus is winning,&#8221; Brown said. &#8220;So I mean, obviously, other people&#8217;s focus may be scoring\n\n...[正文超出 3000 字符，已截断]"
+    }
+  ]
+}
