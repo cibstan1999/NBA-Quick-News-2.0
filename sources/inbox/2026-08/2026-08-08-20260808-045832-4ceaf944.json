@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260808-045832",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-08T04:58:32+08:00",
+  "fetched_at": "2026-08-08 04:58:32",
+  "timezone": "Asia/Shanghai",
+  "item_count": 2,
+  "sources": [
+    "Yahoo Sports NBA"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Wizards release 2026-27 preseason schedule",
+      "link": "https://sports.yahoo.com/articles/wizards-release-2026-27-preseason-184400092.html",
+      "published_at": "Fri, 07 Aug 2026 18:44:00 +0000",
+      "timestamp": 1786128240000,
+      "guid": "4aa1beac-f611-3eb0-bded-c86774b6e33c",
+      "fingerprint": "d0106ad33a8e3845",
+      "content": "INGLEWOOD, CA - January 14: Kyshawn George #18 of the Washington Wizards, Bilal Coulibaly #0 of the Washington Wizards, Alexandre Sarr #20 of the Washington Wizards, and Tre Johnson #12 of the Washington Wizards looks on during the game against the LA Clippers on January 14, 2026 at Intuit Dome in Los Angeles, California. NOTE TO USER: User expressly acknowledges and agrees that, by downloading and/or using this Photograph, user is consenting to the terms and conditions of the Getty Images License Agreement. Mandatory Copyright Notice: Copyright 2026 NBAE (Photo by Juan Ocampo/NBAE via Getty Images) | NBAE via Getty Images\tThe Washington Wizards have released their 2026-27 preseason schedule, which features four games in October.\n\nThe Washington Wizards have released their 2026-27 preseason schedule: pic.twitter.com/qDrwg3A6kY\n\n— Greg Finberg (@GregFinberg) August 7, 2026Washington opens preseason play at 7:30 p.m. on Oct. 8 at Madison Square Garden against the reigning NBA champion New York Knicks.\n\nThe Wizards then return home for two contests at Capital One Arena. The first is against the Detroit Pistons at 7 p.m. on Oct. 10, followed by a 7 p.m. tilt on Oct. 12 against the Brooklyn Nets.\n\nWashington concludes the preseason at 8 p.m. on Oct. 16 against the New Orleans Pelicans at Smoothie King Center."
+    },
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Wizards sign Alondes Willians to Exhibit-10 deal",
+      "link": "https://sports.yahoo.com/articles/wizards-sign-alondes-willians-exhibit-185033767.html",
+      "published_at": "Fri, 07 Aug 2026 18:50:33 +0000",
+      "timestamp": 1786128633000,
+      "guid": "344ce0be-061a-3490-b75d-da2dd51f883f",
+      "fingerprint": "850cb3e62a7f1ed5",
+      "content": "WASHINGTON, DC - FEBRUARY 19: Alondes Williams #31 of the Washington Wizards celebrates after a play against the Indiana Pacers during the second half at Capital One Arena on February 19, 2026 in Washington, DC. NOTE TO USER: User expressly acknowledges and agrees that, by downloading and or using this photograph, User is consenting to the terms and conditions of the Getty Images License Agreement. (Photo by Scott Taetsch/Getty Images) | Getty Images\tThe Washington Wizards have signed Alondes Williams to an Exhibit-10 contract, sources told to Bullets Forever. Chris Haynes first reported the agreement.\n\nFree agent guard Alondes Williams has reached an agreement on a deal with the Washington Wizards, his agent Daniel Hazan of Hazan Sports tells me. Williams scored a career-high 25 points for Wiz last season. pic.twitter.com/YPcCHtrVVW\n\n— Chris Haynes (@ChrisBHaynes) August 7, 2026The deal, which doesn’t count toward Washington’s 15-man roster, allows Williams to participate in training camp with the Wizards while the team secures his G League rights. The 27-year-old has exhausted his two-way eligibility, so Washington can either sign him to a standard contract or a G league contract following training camp.\n\nIf Williams is waived by the Wizards and later signs with their G League affiliate, the Capital City Go-Go, he can earn a bonus of up to $75,000.\n\nWilliams appeared in four games with the Wizards last season and scored 25 points in a win over the Pacers.\n\nBREAKING: The Wizards are signing Alondes Williams (Via @ChrisBHaynes)\n\nWilliams returns to the Wizards after impressing on a two-way last season ⬇️\n\nWelcome home, Alondes‼️ pic.twitter.com/ZqaythW3tJ\n\n— SleeperWizards (@SleeperWizards) August 7, 2026"
+    }
+  ]
+}
