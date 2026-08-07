@@ -29,3 +29,12 @@
   - 素材指纹：9a0b89b9201531b3
   - 决定：REJECT
   - 原因：基于尚未正式确定的 2027-28 工资帽估算，属于早期预测表，当前缺少正式政策变化或即时新闻价值。
+
+## 2026-08-07 08:05 +0800
+
+- 来源：Yahoo Sports NBA
+  - 标题：Where Warriors' Draymond Green redrafts himself in his star-studded 2012 class
+  - 链接：https://sports.yahoo.com/articles/where-warriors-draymond-green-redrafts-162214053.html
+  - 素材指纹：034c20ce3339a312
+  - 决定：REJECT
+  - 原因：球员播客中的个人重排选秀观点，没有合同、交易、伤病、阵容或联盟规则等实质新进展，属于低价值评论性内容。
