@@ -6,6 +6,7 @@ const assert = require('node:assert/strict');
 const {
   HISTORY_WINDOW_DAYS,
   compareEvents,
+  materialFactMarkers,
   withinHistoryWindow
 } = require('./validate-editorial-pr.js');
 
@@ -91,6 +92,72 @@ test('reported signing upgraded to an official announcement is allowed', () => {
   };
 
   assert.equal(compareEvents(official, reported).duplicate, false);
+});
+
+function contractFactVariant(detail, eventHash) {
+  return {
+    title: `Sample Player 与 Sample Team 的合同为 ${detail}`,
+    event_core: `Sample Player 与 Sample Team 达成合同，关键条款为 ${detail}`,
+    event_key: 'sample-player-sample-team-signing',
+    event_hash: eventHash,
+    event_stage: 'reported',
+    canonical_topic: 'sample-player-sample-team-signing'
+  };
+}
+
+test('$3m and 3 million dollars normalize to the same material fact', () => {
+  const historical = contractFactVariant('$3m', '22222222');
+  const candidate = contractFactVariant('3 million dollars', '33333333');
+
+  assert.deepEqual(
+    materialFactMarkers(candidate),
+    materialFactMarkers(historical)
+  );
+  assert.equal(compareEvents(candidate, historical).duplicate, true);
+});
+
+test('3 million dollars and 4 million dollars are different material facts', () => {
+  const historical = contractFactVariant('3 million dollars', '44444444');
+  const candidate = contractFactVariant('4 million dollars', '55555555');
+
+  assert.notDeepEqual(
+    materialFactMarkers(candidate),
+    materialFactMarkers(historical)
+  );
+  assert.equal(compareEvents(candidate, historical).duplicate, false);
+});
+
+test('$3 million and 300万美元 normalize to the same material fact', () => {
+  const historical = contractFactVariant('$3 million', '66666666');
+  const candidate = contractFactVariant('300万美元', '77777777');
+
+  assert.deepEqual(
+    materialFactMarkers(candidate),
+    materialFactMarkers(historical)
+  );
+  assert.equal(compareEvents(candidate, historical).duplicate, true);
+});
+
+test('3-year and three-year normalize to the same material fact', () => {
+  const historical = contractFactVariant('3-year', '88888888');
+  const candidate = contractFactVariant('three-year', '99999999');
+
+  assert.deepEqual(
+    materialFactMarkers(candidate),
+    materialFactMarkers(historical)
+  );
+  assert.equal(compareEvents(candidate, historical).duplicate, true);
+});
+
+test('3-year and 4-year are different material facts', () => {
+  const historical = contractFactVariant('3-year', 'aaaaaaaa');
+  const candidate = contractFactVariant('4-year', 'bbbbbbbb');
+
+  assert.notDeepEqual(
+    materialFactMarkers(candidate),
+    materialFactMarkers(historical)
+  );
+  assert.equal(compareEvents(candidate, historical).duplicate, false);
 });
 
 test('history comparison includes the full seven-day window', () => {

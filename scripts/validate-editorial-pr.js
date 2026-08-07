@@ -241,26 +241,120 @@ function stageGroup(value) {
   return stage;
 }
 
+const NUMBER_WORD_VALUES = Object.freeze({
+  one: 1,
+  two: 2,
+  three: 3,
+  four: 4,
+  five: 5,
+  six: 6,
+  seven: 7,
+  eight: 8,
+  nine: 9,
+  ten: 10,
+  eleven: 11,
+  twelve: 12,
+  thirteen: 13,
+  fourteen: 14,
+  fifteen: 15,
+  sixteen: 16,
+  seventeen: 17,
+  eighteen: 18,
+  nineteen: 19,
+  twenty: 20
+});
+
+function canonicalScalar(value) {
+  const number = Number(value);
+  if (!Number.isFinite(number)) return null;
+  return String(number);
+}
+
+function addUsdAmountMarkers(text, markers) {
+  const scaledAmounts = /(?:\$\s*)?(\d+(?:\.\d+)?)\s*(m|million|b|billion)\b(?:\s*(?:usd|dollars?))?/g;
+  for (const match of text.matchAll(scaledAmounts)) {
+    const multiplier = match[2] === 'b' || match[2] === 'billion'
+      ? 1_000_000_000
+      : 1_000_000;
+    markers.add(`amount_usd:${Math.round(Number(match[1]) * multiplier)}`);
+  }
+
+  const explicitDollarAmounts = /\$\s*(\d[\d,]*(?:\.\d+)?)(?!\s*(?:m|million|b|billion)\b)/g;
+  for (const match of text.matchAll(explicitDollarAmounts)) {
+    const amount = Number(match[1].replace(/,/g, ''));
+    if (Number.isFinite(amount)) {
+      markers.add(`amount_usd:${Math.round(amount)}`);
+    }
+  }
+
+  const chineseAmounts = /(\d+(?:\.\d+)?)(万|亿)?美元/g;
+  for (const match of text.matchAll(chineseAmounts)) {
+    const multiplier = match[2] === '亿' ? 100_000_000
+      : match[2] === '万' ? 10_000
+        : 1;
+    markers.add(`amount_usd:${Math.round(Number(match[1]) * multiplier)}`);
+  }
+}
+
+function addTermMarkers(text, markers) {
+  const wordPattern = Object.keys(NUMBER_WORD_VALUES).join('|');
+  const englishTerms = new RegExp(
+    `\\b(\\d+(?:\\.\\d+)?|${wordPattern})[- ]year(?:s)?\\b`,
+    'g'
+  );
+  for (const match of text.matchAll(englishTerms)) {
+    const value = NUMBER_WORD_VALUES[match[1]] ?? Number(match[1]);
+    const canonical = canonicalScalar(value);
+    if (canonical !== null) markers.add(`term_years:${canonical}`);
+  }
+
+  const chineseTerms = /(?:为期|合同(?:为|期)?)(\d+(?:\.\d+)?)年|(\d+(?:\.\d+)?)年(?:合同|协议|期限)/g;
+  for (const match of text.matchAll(chineseTerms)) {
+    const canonical = canonicalScalar(match[1] ?? match[2]);
+    if (canonical !== null) markers.add(`term_years:${canonical}`);
+  }
+}
+
+function addDraftAssetMarkers(text, markers) {
+  for (const match of text.matchAll(/\b(?:(20\d{2}) )?(first|second)[- ]round(?: pick)?\b/g)) {
+    const round = match[2] === 'first' ? 'first_round' : 'second_round';
+    markers.add(match[1]
+      ? `draft_asset:${match[1]}:${round}`
+      : `draft_asset:${round}`);
+  }
+
+  const chineseAssets = [
+    ['first_round', /首轮签/],
+    ['second_round', /次轮签/],
+    ['draft_pick', /选秀权/],
+    ['pick_swap', /互换权/],
+    ['protected', /受保护/]
+  ];
+  for (const [asset, pattern] of chineseAssets) {
+    if (pattern.test(text)) markers.add(`draft_asset:${asset}`);
+  }
+}
+
+function addDiagnosisMarkers(text, markers) {
+  const diagnoses = [
+    ['fracture', /fracture|骨折/],
+    ['tear', /torn|tear|撕裂/],
+    ['surgery', /surgery|手术/],
+    ['season_ending', /赛季报销/]
+  ];
+  for (const [diagnosis, pattern] of diagnoses) {
+    if (pattern.test(text)) markers.add(`diagnosis:${diagnosis}`);
+  }
+}
+
 function materialFactMarkers(frontMatter) {
   const text = eventText(frontMatter).normalize('NFKC').toLowerCase();
   const markers = new Set();
-  const patterns = [
-    /\$\s?\d+(?:\.\d+)?\s?(?:million|billion|m|b)\b/g,
-    /\b\d+(?:\.\d+)?\s?(?:million|billion)\s?(?:dollars?)?\b/g,
-    /\d+(?:\.\d+)?(?:万|亿)?美元/g,
-    /\b(?:one|two|three|four|five|six|seven|eight|nine|ten|\d+)[- ]year(?:s)?\b/g,
-    /\d+年(?:合同|协议|期限)?/g,
-    /\b(?:first|second)[- ]round(?: pick)?\b/g,
-    /\b20\d{2} (?:first|second)[- ]round\b/g,
-    /首轮签|次轮签|选秀权|互换权|受保护/g,
-    /fracture|torn|tear|surgery|骨折|撕裂|手术|赛季报销/g
-  ];
 
-  for (const pattern of patterns) {
-    for (const match of text.matchAll(pattern)) {
-      markers.add(match[0].replace(/\s+/g, ''));
-    }
-  }
+  addUsdAmountMarkers(text, markers);
+  addTermMarkers(text, markers);
+  addDraftAssetMarkers(text, markers);
+  addDiagnosisMarkers(text, markers);
 
   return markers;
 }
@@ -574,6 +668,7 @@ if (require.main === module) {
 module.exports = {
   HISTORY_WINDOW_DAYS,
   compareEvents,
+  materialFactMarkers,
   parseFrontMatter,
   validateHistoricalDuplicates,
   withinHistoryWindow
