@@ -49,3 +49,11 @@
 - `Bennedict Mathurin / Pistons / Bulls note` — REJECT：活塞退出追逐属于低价值撤回兴趣；公牛相关框架仍为条件式推测，未形成可靠交易阶段。
 - `Knicks third-center free-agent contacts` — REJECT：接触对象未具名，没有明确报价、协议或签约，信息不足以独立成稿。
 - `Alondes Williams Exhibit 10 contract update` — REJECT：后续仓库级跨轮次校验确认与已发布的阿隆德斯·威廉姆斯签约事件重复，合同结构补充不足以单独再次发布。
+
+## 09:04 编辑轮次
+
+- `2025-26 Spurs Player Reviews: Harrison Barnes` — REJECT：赛季回顾与角色评价为主，核心是既有表现和评论，没有新的球队决定、交易、合同或伤病事件。
+- `Nuggets reportedly agree to one-year contract with veteran Lonnie Walker IV` — REJECT：与 2026-08-06 已发布的“掘金与朗尼·沃克签下一年330万美元合同”属于同一签约事件，仅更换来源并补充背景，没有实质阶段升级。
+- `Misdemeanor gun charges against James Harden dropped` — REJECT：同一持枪案撤诉结果已在本日更早轮次确认属于跨轮次重复，没有新的法律或联盟纪律进展。
+- `Coroner: Brandon Clarke Died Of Accidental Overdose` — REJECT：与 2026-08-08 已发布的布兰登·克拉克官方死因确认事件重复；本素材仅更换来源并增加背景，没有新的官方结论。
+- `Lakers legend Derek Fisher surrendered $21 million for daughter’s medical care` — REJECT：核心事件发生于 2007 年，为近20年前家庭医疗与合同选择的回顾性采访，不属于当前 NBA 新闻。
