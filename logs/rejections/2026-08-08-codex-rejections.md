@@ -83,3 +83,7 @@
 - `Taelon Peter Signs Training Camp Deal With Spurs` — REJECT：与 2026-08-08 04:02 已发布的 Taelon Peter / 马刺训练营合同事件重复；仅更换来源，没有实质阶段升级。
 - `Alondes Williams, Wizards Agree To Exhibit-10 Deal` — REJECT：与 2026-08-08 01:05 已发布的阿隆德斯·威廉姆斯 / 奇才签约事件重复；Exhibit 10 合同结构也已在后续轮次核验，当前转述无新阶段。
 - `Josh Broghamer Joins Sean Sweeney's Staff With Magic` — REJECT：与 2026-08-08 11:01 已发布的约什·布罗格哈默加入魔术教练组事件重复；仅更换来源，没有新的人事阶段。
+
+## 18:59 编辑轮次
+
+- `James Harden gun case is settled` — REJECT：与 2026-08-07 已发布的“哈登休斯敦持枪案被撤销，已完成替代解决协议”属于同一法律事件；本素材仍是撤案与替代解决协议，没有新的法律、联盟纪律或合同阶段升级。素材中关于 6 月被捕日期与已发布稿存在冲突，因此仅按已核验的跨轮次重复处理，不采用可疑日期。
