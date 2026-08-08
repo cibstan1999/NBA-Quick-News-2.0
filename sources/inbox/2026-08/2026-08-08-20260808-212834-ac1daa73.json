@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260808-212834",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-08T21:28:34+08:00",
+  "fetched_at": "2026-08-08 21:28:34",
+  "timezone": "Asia/Shanghai",
+  "item_count": 1,
+  "sources": [
+    "Yahoo Sports NBA"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Open Thread: Luke Kornet stops to help a local motorist",
+      "link": "https://sports.yahoo.com/articles/open-thread-luke-kornet-stops-110000115.html",
+      "published_at": "Sat, 08 Aug 2026 11:00:00 +0000",
+      "timestamp": 1786186800000,
+      "guid": "9019a95d-5386-3d98-a2f8-99f5177654d3",
+      "fingerprint": "0c2cb53ac7842228",
+      "content": "NEW YORK, NY - JUNE 7: Luke Kornet #7 of the San Antonio Spurs smiles during 2026 NBA Finals Practice and Media Availability on June 7, 2026 at Madison Square Garden in New York, New York. NOTE TO USER: User expressly acknowledges and agrees that, by downloading and or using this photograph, User is consenting to the terms and conditions of the Getty Images License Agreement. Mandatory Copyright Notice: Copyright 2026 NBAE(Photo by David L. Nemec/NBAE via Getty Images) | NBAE via Getty Images\tIn the midst of summer, members of the Spurs are in Paris, France working out and visiting a national art museum. Keldon Johnson made an appearance at a summer basketball camp in Laredo, Texas. And this weekend, the Spurs are hosting a back-to-school at the Frost Bank Center.\n\nMeanwhile, somewhere in San Antonio, Luke Kornet is moonlighting as a roadside assistant.\n\nWay to go, Kornet! Well done! 👏🏻 \n\nWATCH: Spurs' Luke Kornet helps out San Antonio motorist having car trouble \n\nLINK – https://t.co/SeIczd9hfu#nba#porvida#sanantonio#gospursgopic.twitter.com/MlVCRtmyj3\n\n— JeffGSpursZone (@JeffGSpursZone) August 6, 2026A TikTok user posted this video of Kornet as he pulled over to help a motorist who was having car trouble. \n\nIt seems no matter where Kornet is, he makes the day brighter. Good on ya, Luke.\n\nWelcome to the Thread. Join in the conversation, start your own discussion, and share your thoughts. This is the Spurs community, your Spurs community. Thanks for being here.\n\nOur community guidelines apply which should remind everyone to be cool, avoid personal attacks, not to troll and to watch the language."
+    }
+  ]
+}
