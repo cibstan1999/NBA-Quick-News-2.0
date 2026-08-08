@@ -57,3 +57,8 @@
 - `Misdemeanor gun charges against James Harden dropped` — REJECT：同一持枪案撤诉结果已在本日更早轮次确认属于跨轮次重复，没有新的法律或联盟纪律进展。
 - `Coroner: Brandon Clarke Died Of Accidental Overdose` — REJECT：与 2026-08-08 已发布的布兰登·克拉克官方死因确认事件重复；本素材仅更换来源并增加背景，没有新的官方结论。
 - `Lakers legend Derek Fisher surrendered $21 million for daughter’s medical care` — REJECT：核心事件发生于 2007 年，为近20年前家庭医疗与合同选择的回顾性采访，不属于当前 NBA 新闻。
+
+## 10:01 编辑轮次
+
+- `NBA star Brandon Clarke’s cause of death revealed` — REJECT：与 2026-08-08 06:06 已发布的布兰登·克拉克官方死因确认事件完全重复；本素材仅更换来源并补充既有背景，没有新的官方结论。
+- `Hornets’ Coby White Ready To ‘Surprise People’ In 2026/27` — REJECT：核心为科比·怀特对新赛季的乐观表态、队友评价和夏季合练内容，没有新的签约、交易、阵容决定、伤病或联盟事务事件，属于低价值采访/展望。
