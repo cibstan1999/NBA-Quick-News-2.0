@@ -36,6 +36,7 @@
 
 ## 07:59 编辑轮次
 
+- `San Antonio signs Taelon Peter to training camp deal` — REJECT：与 2026-08-08 04:02 已通过 PR #54 发布的 Taelon Peter / 马刺 Exhibit 10 签约事件重复；本素材只是同一签约的后续转载，没有合同阶段、金额或阵容状态升级。
 - `NBA 2K got Devin Booker completely wrong` — REJECT：核心为电子游戏能力值评价与作者主观评论，不构成新的 NBA 球队、阵容、合同、伤病或联盟事务事件。
 - `Cavs Reacts: Fans vote on favorite trade target` — REJECT：核心为球迷投票和作者观点；文中仅重述骑士对佩顿·沃特森、乔纳森·库明加的持续兴趣，没有协议、报价、筹码或事件阶段升级。
 - `VJ Edgecombe details LeBron James’ FaceTime on decision that left him ‘geekin’` — REJECT：核心是球员之间 FaceTime 互动和个人反应，属于低价值趣闻；素材中的自由市场背景不构成本轮独立新事件。
