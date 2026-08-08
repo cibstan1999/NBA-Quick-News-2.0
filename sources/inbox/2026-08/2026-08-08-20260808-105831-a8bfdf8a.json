@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260808-105831",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-08T10:58:31+08:00",
+  "fetched_at": "2026-08-08 10:58:31",
+  "timezone": "Asia/Shanghai",
+  "item_count": 2,
+  "sources": [
+    "Yahoo Sports NBA",
+    "Hoops Rumors"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Warriors’ Steph Curry calls out Jimmy Butler for hilarious Instagram post",
+      "link": "https://sports.yahoo.com/articles/warriors-steph-curry-calls-jimmy-223700146.html",
+      "published_at": "Fri, 07 Aug 2026 22:37:00 +0000",
+      "timestamp": 1786142220000,
+      "guid": "4254ce9f-f72b-3b9f-a473-8c54544be70a",
+      "fingerprint": "6839ca12c2bf9ac4",
+      "content": "Golden State Warriors star Jimmy Butler trolled Steph Curry in a recent series of pictures posted on Instagram.\n\nButler, who is on a trip to Amsterdam, posted pictures of his overseas workout — but with a twist. It appears Butler photoshopped Curry’s face over his own in each of the five photos.\n\nJimmy Butler played comedian during his trip to the Netherlands as he posted a hilarious series of photos of himself, only with Steph Curry’s face replacing his own. Instagram/jimmybutlerCurry commented on the Instagram post, “What is wrong with you” along with a laughing emoji. \n\nButler has earned a reputation for his comedic demeanor off the court. In 2023 with the Miami Heat, Butler showed up to NBA Media Day with a bizarre hairstyle that later became known as “Emo Jimmy.” \n\nSteph Curry’s comment on Jimmy Butler’s IG:\n\n“What is wrong with you ” pic.twitter.com/R9q6AQ2Bon\n\n— aly ✶ (@jinthirty) August 7, 2026Jimmy Butler has earned a reputation for having a lighthearted, comedic demeanor off the court, which includes trolling his teammates.  Instagram/jimmybutlerThis also isn’t the first time Butler has involved Curry in one of his humorous antics as the Warriors duo previously pranked former teammate Buddy Hield.\n\nButler and Curry are obviously close enough to joke with one another, including the latter calling out the former for his hilarious Instagram post. \n\nWhile the Warriors are keeping things lighthearted off the court, the team has several question marks heading into the 2026-27 season. \n\nDownload The California Post App, follow us on social, and subscribe to our newsletters California Post News: Facebook, Instagram, TikTok, X, YouTube, WhatsApp, LinkedIn\nCalifornia Post SportsFacebook, Instagram, TikTok, YouTube, X\nCalifornia Post  Opinion\nCalifornia Post Newsletters: Sign up here!\nCalifornia Post App: Download here!\nHome delivery: Sign up here!Page Six Hollywood: Sign up here!\n\nSteph Curry will be tasked with handling the Warriors’ offensive load while Jimmy Butler recovers from a torn ACL.  NBAE via Getty ImagesAside from the LeBron James sweepstakes, Golden State was extremely quiet in free agency. Its most notable move of the offseason was selecting Yaxel Lendeborg as the No. 11 overall pick in the 2026 NBA Draft.\n\nAs Butler and Moses Moody recover from injuries, the Warriors have once again placed the offensive load on Curry’s shoulders. While the 38-year-old remains an elite player, that is no easy task for a star who is hoping to get his squad a playoff spot."
+    },
+    {
+      "source": "Hoops Rumors",
+      "title": "Magic To Hire Mavs’ Josh Broghamer As Assistant Coach",
+      "link": "https://www.hoopsrumors.com/2026/08/magic-to-hire-mavs-josh-broghamer-as-assistant-coach.html",
+      "published_at": "Sat, 08 Aug 2026 02:56:57 +0000",
+      "timestamp": 1786157817000,
+      "guid": "https://www.hoopsrumors.com/?p=486941",
+      "fingerprint": "9062ccdd30cd001d",
+      "content": "Although he was initially expected to stay on Dusty May&#8216;s coaching staff with the Mavericks, Josh Broghamer will be leaving Dallas to join the Magic, reports Marc Stein of The Stein Line (via Twitter).\n\nBoth Mike Curtis of The Dallas Morning News and Grant Afseth of DallasSportsJournal.com have confirmed the news and report that Broghamer will be an assistant coach in Orlando.\n\nBroghamer has been an assistant with Dallas for the past three seasons, largely focusing on player development. He was the Mavericks&#8217; Summer League coach in 2025 and conducted Cooper Flagg&#8216;s pre-game workouts throughout the 2025/26 campaign. Flagg, last year&#8217;s No. 1 overall pick, is the NBA&#8217;s reigning Rookie of the Year.\n\nBroghamer will be reuniting with new Magic head coach Sean Sweeney, his former colleague in Dallas and Milwaukee, as well as veteran assistant coach Popeye Jones, who spent last season with the Mavs (it was technically his second stint as an assistant in Dallas).\n\nAccording to the National Basketball Coaches Association, Broghamer got his NBA start in 2013 as a video intern in Phoenix, spent four seasons under Jason Kidd with the Bucks, and had a five-year run with the Cavaliers before joining Kidd&#8217;s staff in Dallas in 2023. The Mavericks parted ways with Kidd earlier this offseason when the new front office regime took over.\n\nVeteran assistant coach Phil Handy is now the lone holdover from last season&#8217;s Mavericks staff, Curtis and Afseth note."
+    }
+  ]
+}
