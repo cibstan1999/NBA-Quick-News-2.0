@@ -91,3 +91,7 @@
 ## 20:01 编辑轮次
 
 - `SB Nation Reacts: who could be Jayson Tatum’s +1?` — REJECT：核心是球迷投票与作者对凯尔特人未来搭档人选的主观推演，涉及库里、戴维斯、杜兰特、欧文等潜在人选，但没有交易谈判、报价、协议或其他可独立发布的新事实；同时夹带博彩赔率，按编辑政策拒绝。
+
+## 22:00 编辑轮次
+
+- `Open Thread: Luke Kornet stops to help a local motorist` — REJECT：核心是 Luke Kornet 路边帮助车辆故障的当地车主，属于球员场外低价值趣闻，不影响 NBA 球队、合同、阵容、伤病、比赛或联盟事务；按编辑政策拒绝。
