@@ -71,3 +71,7 @@
 ## 12:03 编辑轮次
 
 - `Matisse Thybulle has a shot at having a breakout season with Lakers` — REJECT：核心是 SB Nation 球迷投票与作者对塞布尔新赛季表现的主观展望；虽包含既有签约、健康和上赛季数据背景，但没有新的签约、交易、阵容决定、伤病诊断或联盟事务事件。
+
+## 13:01 编辑轮次
+
+- `Shaquille O’Neal drops stunning Kobe bomb on LeBron James-Michael Jordan GOAT debate` — REJECT：核心是奥尼尔在播客中讨论科比、詹姆斯和乔丹的 GOAT 排名，属于观点与历史讨论，没有新的球队、合同、阵容、伤病、比赛或联盟事务事件；素材还混入明显可疑的历史得分数据，因此不用于成稿。
