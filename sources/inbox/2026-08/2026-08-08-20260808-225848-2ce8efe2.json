@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260808-225848",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-08T22:58:48+08:00",
+  "fetched_at": "2026-08-08 22:58:48",
+  "timezone": "Asia/Shanghai",
+  "item_count": 2,
+  "sources": [
+    "Yahoo Sports NBA"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Autopsy finds Grizzlies' Brandon Clarke died from mixture of drugs",
+      "link": "https://sports.yahoo.com/articles/autopsy-finds-grizzlies-brandon-clarke-143718581.html",
+      "published_at": "Sat, 08 Aug 2026 14:37:18 +0000",
+      "timestamp": 1786199838000,
+      "guid": "3e8da7f0-e7b5-3976-9668-dcd27d79b995",
+      "fingerprint": "b99d73eb6c4310e7",
+      "content": "LOS ANGELES (AP) — Memphis Grizzlies forward Brandon Clarke died in May from the effects of heroin and cocaine, authorities said Friday.\n\nThe Los Angeles County Department of Medical Examiner said the 29-year-old basketball player's death was accidental.\n\nClarke was found dead inside a home near Los Angeles on May 11. A person familiar with the terms of the investigation told The Associated Press after the Grizzlies announced Clarke's passing that drug paraphernalia was found at the residence. The person had spoken on condition of anonymity because those details had not been released publicly.\n\nClarke was under contract to be with the Grizzlies through the 2026-27 season.\n\nAbout six weeks before he died, Clarke was arrested in Arkansas on charges of speeding, reckless driving and possessing a controlled substance. He was with Memphis for all seven of his pro seasons after finishing his college career at Gonzaga."
+    },
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "North Carolina adds 7-foot center from Summit League to 2026-27 roster",
+      "link": "https://sports.yahoo.com/articles/north-carolina-adds-7-foot-144315790.html",
+      "published_at": "Sat, 08 Aug 2026 14:43:15 +0000",
+      "timestamp": 1786200195000,
+      "guid": "91a7511f-a0ef-3c54-bf64-85cec943e2fe",
+      "fingerprint": "3970ed133592f1ba",
+      "content": "Michael Malone and North Carolina basketball have added some additional size and length to their frontcourt for the upcoming 2026-27 season.\n\nOn Friday, Aug. 7 the Tar Heels landed South Dakota and All-Summit League center Cameron Fens out of the transfer portal, giving Malone and Co. a 7-foot, 255-pound big man on the interior. \n\n\"One of the most surreal moments of my life,\" Fens wrote in an Instagram post on Aug. 7. \"Humbled to wear Carolina Blue and to represent this university. Excited to get to work. Go Heels! AGTG.\"\n\nView this post on Instagram"
+    }
+  ]
+}
