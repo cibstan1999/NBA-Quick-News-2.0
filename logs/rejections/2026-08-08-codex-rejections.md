@@ -62,3 +62,8 @@
 
 - `NBA star Brandon Clarke’s cause of death revealed` — REJECT：与 2026-08-08 06:06 已发布的布兰登·克拉克官方死因确认事件完全重复；本素材仅更换来源并补充既有背景，没有新的官方结论。
 - `Hornets’ Coby White Ready To ‘Surprise People’ In 2026/27` — REJECT：核心为科比·怀特对新赛季的乐观表态、队友评价和夏季合练内容，没有新的签约、交易、阵容决定、伤病或联盟事务事件，属于低价值采访/展望。
+
+## 11:01 编辑轮次
+
+- `Bucks, Taylor Jenkins finalize coaching staff` — REJECT：与 2026-08-08 06:06 已发布的雄鹿 2026-27 赛季教练组公布事件重复；本素材仅更换来源并展开教练履历，没有新的球队人事阶段。
+- `Warriors’ Steph Curry calls out Jimmy Butler for hilarious Instagram post` — REJECT：核心是巴特勒在 Instagram 恶搞库里以及库里的玩笑回应，属于低价值社交媒体趣闻，没有新的球队、合同、阵容、伤病或联盟事务事件。
