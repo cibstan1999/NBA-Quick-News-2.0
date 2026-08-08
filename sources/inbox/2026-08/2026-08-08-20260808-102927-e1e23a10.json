@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260808-102927",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-08T10:29:27+08:00",
+  "fetched_at": "2026-08-08 10:29:27",
+  "timezone": "Asia/Shanghai",
+  "item_count": 1,
+  "sources": [
+    "Yahoo Sports NBA"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "Bucks, Taylor Jenkins finalize coaching staff",
+      "link": "https://sports.yahoo.com/articles/bucks-taylor-jenkins-finalize-coaching-234511475.html",
+      "published_at": "Fri, 07 Aug 2026 23:45:11 +0000",
+      "timestamp": 1786146311000,
+      "guid": "6d1859cd-a07e-3e07-bc50-29c18bea3d1b",
+      "fingerprint": "40971abb0e893f01",
+      "content": "MILWAUKEE, WISCONSIN - FEBRUARY 02: Head coach Taylor Jenkins of the Memphis Grizzlies looks on against the Milwaukee Bucks during the third quarter at Fiserv Forum on February 02, 2025 in Milwaukee, Wisconsin. NOTE TO USER: User expressly acknowledges and agrees that, by downloading and or using this photograph, User is consenting to the terms and conditions of the Getty Images License Agreement. (Photo by Patrick McDermott/Getty Images) | Getty Images\tThe Milwaukee Bucks announced their coaching staff earlier on Friday. Under new head coach Taylor Jenkins, only Darvin Ham and head of player development Jack Herum will return to the Bucks for the 2026-27 season. The rest of Milwaukee’s new coaching personnel—including Summer League head coach Pat St. Andrews—are all new hires or returning to Milwaukee after previously leaving.\n\nDarvin Ham is the most recognizable name among Jenkins’ assistant coaches. Ham served as the lead assistant coach for four seasons, including Milwaukee’s championship-winning season in 2021. He then spent a turmoil-filled two years in Los Angeles, where, despite posting a winning record across his two seasons in charge, he was fired after a first-round playoff exit. Ham was a candidate to fill the New Orleans Pelicans’ coaching vacancy in the summer, but he ultimately remained in his role as the Bucks’ assistant coach. Ham has worked with Jenkins before in Atlanta for five seasons and in Milwaukee for one.\n\nTwo of the Bucks’ assistant coaches, St. Andrews and Brad Jones, worked with Jenkins as assistant coaches in Memphis. Others have ties to Milwaukee; Vince Legarza returns to the Bucks after spending the 2024-25 season as an assistant with the Suns, and Schuyler Rimmer spent four seasons with the Bucks from 2018-22 as a video coordinator. Some of the Bucks’ new assistants have experience from around the league. Johnny Carpenter was an assistant for the Indiana Pacers last season but turned down the opportunity to coach the Pacers’ Summer League team to join Milwaukee. \n\nT.J. Ford will also join Milwaukee’s coaching staff, his first coaching role in the NBA. The former eighth overall pick in the 2003 NBA draft, Ford spent two seasons with Milwaukee as the team’s starting point guard and made 127 appearances, averaging 10 points. After retirement, Ford spent time coaching high school and AAU basketball, including his own Adidas-sponsored team, TJ Ford Elite.\n\nJoe Boylan, the highly-touted coach who seemed set to join Jenkins’ coaching staff, won’t join the Bucks. Boylan shifted course in early July to join new coach Dusty May and the Dallas Mavericks, \n\nDave Joerger, a longtime assistant to Doc Rivers, will take on an assistant coaching job in Denver, while Greg Buckner joins the Orlando Magic."
+    }
+  ]
+}
