@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260808-235831",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-08T23:58:31+08:00",
+  "fetched_at": "2026-08-08 23:58:31",
+  "timezone": "Asia/Shanghai",
+  "item_count": 2,
+  "sources": [
+    "Yahoo Sports NBA",
+    "Hoops Rumors"
+  ],
+  "items": [
+    {
+      "source": "Yahoo Sports NBA",
+      "title": "DAZN set to take over Spurs local broadcasts",
+      "link": "https://sports.yahoo.com/articles/dazn-set-over-spurs-local-133000246.html",
+      "published_at": "Sat, 08 Aug 2026 13:30:00 +0000",
+      "timestamp": 1786195800000,
+      "guid": "d7cda938-472f-385d-8c7b-142c8fbcc266",
+      "fingerprint": "e851501268879fd8",
+      "content": "ATLANTA, GEORGIA - JULY 01: The DAZN logo is seen on a microphone prior to the FIFA World Cup 2026 Round Of 32 match between England and Congo DR at Atlanta Stadium on July 01, 2026 in Atlanta, Georgia. (Photo by Visionhaus/Getty Images) | Getty Images\tPer recent reporting by Austin Karp of Sports Business Journal, a new player is entering the local NBA broadcast space. U.K. based streamer DAZN (pronounced da’zone), a platform primarily known for boxing and MMA, secured streaming rights for New York-based MSG and YES networks, making them the exclusive digital provider for all non-national TV New York Knicks and Brooklyn Nets games. \n\nKarp also reported from multiple sources that DAZN was close to deals with the Timberwolves, Cavaliers, Pacers, Grizzlies, Magic, possibly the Hornets, and the San Antonio Spurs. Nothing is official, but DAZN CEO all but confirmed, telling Sports Business Journal, “We are in discussion with many other teams, and I can promise you that more teams will follow very soon.”\n\nThis marks a notable shift in local sports broadcasting, which, until now, was handled by regional sports networks (RSNs). These are Fox Sports Southwest, Bally Sports Southwest, and most recently, FanDuel Sports Network Southwest. All of which are no more, with FanDuel Sports Network officially folding this year. \n\nThis can hardly be a surprise. RSNs have been a dying business model, limping along for years now. As the name changes suggest, the networks have changed hands several times, with one parent company, Diamond Sports Group, going through bankruptcy in 2023. DAZN was looked at as a potential buyer of the entity in 2025, but ultimately decided not to, perhaps seeing the future opportunity down the road. \n\nThese struggles have had real consequences for NBA teams beyond just their own revenue. As RSNs underperformed, the NBA salary cap can’t be propped up by the lucrative national TV deals. As a result, the salary cap did not hit its 10 percent maximum growth, instead settling for 6.7 percent.\n\nWhile this isn’t a decline, it isn’t the growth the owners and players want. Other RSNs will either need to adapt or face the same fate as FanDuel Sports Network. \n\nStreaming is the natural progression, and DAZN stepping in makes sense. The company is already a rights holder for the NBA in several international markets, and is looking to grow its U.S. rights portfolio. The aforementioned anticipated deals could be only the beginning as the platform wants to pursue the rights to be the NBA’s centralized local streamer down the road.\n\nWhat about the fans?This is all well and good for the NBA and DAZN, but what does it mean for fans? \n\nProvided the deals go through, it will mean streaming becomes the exclusive medium for Spurs broadcasts.\n\nKarp reports that DAZN is willing to put forth a good amount of capital for marketing to create awareness. A small handful of games will be broadcast over-the-air or free from DAZN before fully switching over to streaming\n\n...[正文超出 3000 字符，已截断]"
+    },
+    {
+      "source": "Hoops Rumors",
+      "title": "Mavs Reportedly Not Discussing Buyout With Klay Thompson",
+      "link": "https://www.hoopsrumors.com/2026/08/mavs-reportedly-not-discussing-buyout-with-klay-thompson.html",
+      "published_at": "Sat, 08 Aug 2026 15:41:35 +0000",
+      "timestamp": 1786203695000,
+      "guid": "https://www.hoopsrumors.com/?p=486961",
+      "fingerprint": "802a5d84c43f9e3b",
+      "content": "While there has been plenty of chatter this summer about Miami being interested in Klay Thompson, particularly if he&#8217;s waived following a buyout with the Mavericks, the veteran wing and Dallas aren&#8217;t currently discussing a buyout, according to Brett Siegel of ClutchPoints (Twitter link).\n\nAs Siegel notes, the Mavs have explored trades involving Thompson, but nothing has come together on that front. The 36-year-old is owed $17.5MM in 2026/27 ahead of possible free agency next year.\n\nThompson made five straight All-Star teams during his prime and helped Golden State make five consecutive NBA Finals appearances during that same stretch, which included three championships. However, he tore the ACL in his left knee during Game 6 of the 2019 NBA Finals, causing him to miss the entire 2019/20 season, then tore his right Achilles tendon in November 2020, resulting in another full-season absence.\n\nThompson helped the Warriors win a fourth title after returning to action in the middle of the 2021/22 season, but his athleticism understandably declined after the major injuries. He parted ways with the Warriors in the 2024 offseason when he was signed-and-traded to Dallas.\n\nThings haven&#8217;t gone the way Thompson hoped when he agreed to join the Mavs, who were coming off an NBA Finals appearance in 2024 but have missed the playoffs each of the past two seasons. Thompson&#8217;s numbers have fallen off considerably over that span, and they were at career-worst levels in multiple categories this past season, including points (11.7), rebounds (2.1), assists (1.4) and minutes (21.7) per game.\n\nThompson has been pretty durable the past three years, appearing in 77, 72 and 69 games. He&#8217;s still an above-average three-point shooter on high volume, knocking down 38.3% of his 7.6 attempts per game last season, though he shot a career-worst 41.8% on his 2.9 two-point tries.\n\nIt&#8217;s unclear if the Mavericks have plans to retain Thompson after adding several younger players to provide outside shooting. The team is also facing a minor roster crunch, with 16 players currently on standard deals."
+    }
+  ]
+}
