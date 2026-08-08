@@ -95,3 +95,11 @@
 ## 22:00 编辑轮次
 
 - `Open Thread: Luke Kornet stops to help a local motorist` — REJECT：核心是 Luke Kornet 路边帮助车辆故障的当地车主，属于球员场外低价值趣闻，不影响 NBA 球队、合同、阵容、伤病、比赛或联盟事务；按编辑政策拒绝。
+
+## 23:02 编辑轮次
+
+- `Jalen Green could be the key to a more dynamic Suns offense` — REJECT：核心为新赛季进攻展望、球迷调查和作者对杰伦·格林得分角色的预测，没有新的交易、合同、阵容决定、伤病诊断或联盟事务事件。
+- `On this day in Bucks history: Milwaukee signs Bobby Simmons` — REJECT：回顾雄鹿在 2005 年签下 Bobby Simmons 的历史文章，不是当前 NBA 新闻事件。
+- `Pistons Notes: Duren, Roster Crunch, Ball-Handling, East` — REJECT：杜伦与活塞续约僵局已于本日 05:02 发布；本素材仍是同一持续谈判，未新增协议、可靠新报价、金额或事件阶段升级，其余内容主要为阵容与持球点分析。
+- `Autopsy finds Grizzlies' Brandon Clarke died from mixture of drugs` — REJECT：与本日 06:06 已发布的布兰登·克拉克官方死因确认事件完全重复，仅更换来源，没有新的官方结论。
+- `North Carolina adds 7-foot center from Summit League to 2026-27 roster` — REJECT：北卡大学通过转会门户补强 NCAA 阵容，事件主体不属于 NBA 新闻边界。
