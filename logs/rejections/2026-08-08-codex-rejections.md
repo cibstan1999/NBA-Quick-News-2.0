@@ -75,3 +75,11 @@
 ## 13:01 编辑轮次
 
 - `Shaquille O’Neal drops stunning Kobe bomb on LeBron James-Michael Jordan GOAT debate` — REJECT：核心是奥尼尔在播客中讨论科比、詹姆斯和乔丹的 GOAT 排名，属于观点与历史讨论，没有新的球队、合同、阵容、伤病、比赛或联盟事务事件；素材还混入明显可疑的历史得分数据，因此不用于成稿。
+
+## 14:00 编辑轮次
+
+- `Monta Ellis Named General Manager At Alcorn State` — REJECT：与 06:06 轮次已拒绝的同一 NCAA 任职事件重复；事件主体仍是 Alcorn State 大学篮球项目，不属于当前 NBA 新闻边界。
+- `Garrison Mathews Signs With Olimpia Milan` — REJECT：与 2026-08-08 00:00 已发布的加里森·马修斯加盟米兰事件重复；本素材仅为 RealGM 转述，没有合同阶段、金额或其他实质更新。
+- `Taelon Peter Signs Training Camp Deal With Spurs` — REJECT：与 2026-08-08 04:02 已发布的 Taelon Peter / 马刺训练营合同事件重复；仅更换来源，没有实质阶段升级。
+- `Alondes Williams, Wizards Agree To Exhibit-10 Deal` — REJECT：与 2026-08-08 01:05 已发布的阿隆德斯·威廉姆斯 / 奇才签约事件重复；Exhibit 10 合同结构也已在后续轮次核验，当前转述无新阶段。
+- `Josh Broghamer Joins Sean Sweeney's Staff With Magic` — REJECT：与 2026-08-08 11:01 已发布的约什·布罗格哈默加入魔术教练组事件重复；仅更换来源，没有新的人事阶段。
