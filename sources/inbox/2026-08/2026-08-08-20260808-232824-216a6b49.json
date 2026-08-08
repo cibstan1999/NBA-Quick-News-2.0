@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "pending",
+  "batch_id": "20260808-232824",
+  "part": 1,
+  "total_parts": 1,
+  "collector_version": "2026-08-06-github-inbox-pipeline",
+  "created_at": "2026-08-08T23:28:24+08:00",
+  "fetched_at": "2026-08-08 23:28:24",
+  "timezone": "Asia/Shanghai",
+  "item_count": 1,
+  "sources": [
+    "RealGM NBA"
+  ],
+  "items": [
+    {
+      "source": "RealGM NBA",
+      "title": "Kevin Love Interested In Joining Sixers",
+      "link": "https://basketball.realgm.com/wiretap/286939/Kevin-Love-Interested-In-Joining-Sixers",
+      "published_at": "Sat, 08 Aug 2026 10:26:50 EDT",
+      "timestamp": 1786199210000,
+      "guid": "https://basketball.realgm.com/wiretap/286939/Kevin-Love-Interested-In-Joining-Sixers",
+      "fingerprint": "e847f4403d088aa0",
+      "content": "Free agent big man Kevin Love would like to continue his NBA career. If he has his way, Love will join the Philadelphia 76ers for the upcoming season.\n\nThe Sixers are known to be looking for another big man, but do not have enough room under their first-apron hard cap for a signing at the veteran minimum. That could lead to Love looking elsewhere or waiting until early December when Philadelphia could fit a veteran minimum signing in under their hard cap.\n\nLove appeared in 37 games for the Utah Jazz last season. The 18-year veteran averaged 6.7 points, 5.8 rebounds and 1.8 assists in 16.6 minutes per game. Love also shot 37.3% on 3.8 three-point attempts per game."
+    }
+  ]
+}
